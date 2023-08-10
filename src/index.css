@@ -1,0 +1,177 @@
+*{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    border: 2px solid red;
+    background-color: #bbd6ed;
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:767px){
+    *{ 
+        font-size: 22px;  
+    }
+    section > .perfil {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        border: 2px white solid;
+    }
+    .secao_nome h2 {
+        font-size: 2rem !important;
+        
+    }
+    .secao_links_de_contato a {
+        
+            width: 240px;
+            padding: 21px;
+            border: 2px solid black;
+            border-radius: 25px;
+            
+            margin-top: 70px;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .secao_links_de_contato a span{
+        font-size: 1.5rem !important;
+    }
+
+    /* SECAO SOBRE MIM*/
+    section.descricao_pessoal#aboutme {
+        text-align: center;
+    }
+    section.descricao_pessoal h4 {
+        font-size: 2.5rem;
+    }
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root>p{
+        font-size: 1.4rem !important;
+    }
+
+    /* SECAO HABILIDADES*/
+    section.secao_descricao_habilidades>h4 {
+        font-size: 2.5rem !important;
+        margin-top: 30px;
+    }
+    div.MuiBox-root.css-1fmrwxc{
+        font-size: 3rem !important;
+    }
+    .secao_descricao_habilidades div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        width: 200px !important;
+        height: 200px !important;
+        font-weight: bold;
+    }
+
+    /* SECAO LISTA PROJETOS*/
+
+    section.secao_lista_de_projetos > h4{
+        font-size: 2.5rem !important;
+    }
+
+    div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 600px;
+        height: 450px;
+    }
+
+
+    div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 2.1rem !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 2.0rem !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 1.9rem !important;
+    }
+
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>div.container_card_tech_icons{
+        display: flex !important;
+        gap: 40px;  
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div span {
+        font-size: 1.8rem !important;
+        font-weight: bold;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div span svg {
+        font-size: 1.8rem !important;
+        font-weight: bold;
+    }
+
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        padding-left: 25px !important;
+    }
+    .css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+       
+        font-size: 1.9rem !important;
+    }
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        margin-bottom: 100px !important;
+    }
+
+
+    /* SECAO CONTATOS*/
+    div.MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation5 css-qh7kl5-MuiPaper-root {
+       
+    }
+
+    .css-1ypa3nd > :not(style){
+        height: 200px !important;
+        width: 150px !important;
+        
+    }
+    .css-1ypa3nd > :not(style) .card_contato_item{
+        font-size: 1.9rem !important;
+    }
+    .css-1ypa3nd > :not(style) .card_contato_item a{
+        font-size: 1.9rem !important;
+    }
+
+    .css-1ftmu5e > :not(style) h6{
+        display: inline !important;
+        font-size: 1rem;
+    }
+
+
+    #butao_enviar_email{
+        font-size: 1.9rem;
+    }
+
+
+    /*MENU HAMBURGUER POR DENTRO */
+
+   
+
+
+
+
+    
+
+
+    section.secao_contatos .css-1pnmrwp-MuiTypography-root{
+        font-size: 1.4rem;
+    }
+
+
+    
+
+    
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+
+}
+@media screen and (min-width:1201px){
+
+}

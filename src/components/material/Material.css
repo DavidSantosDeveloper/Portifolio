@@ -1,0 +1,1303 @@
+/*  COMPOETE SECAO-PERFIL*/
+
+section.secao-perfil {
+    background-color:  #bbd6ed !important;
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 97vh;
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center !important;
+    align-items: center; 
+    align-content: center;
+}
+
+section.container_profile{
+
+}
+
+section >.perfil{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+section >.perfil div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.secao_nome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.secao_nome h2{
+    font-size: 1.7rem !important;
+    margin-bottom: 0px;
+    
+
+
+}
+.secao_nome h3{
+    font-size: 1.3rem !important;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.secao_links_de_contato{ 
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.secao_links_de_contato a{
+    width: 180px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: white !important;
+
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1.2rem !important;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: bold;
+
+    color: black;
+}
+
+.secao_links_de_contato a:hover{
+    background: linear-gradient(to top right,#badcf4,#74a1d4);
+
+}
+
+
+/*  COMPOETE SECAO-SOBREMIM*/
+
+section.secao_sobremim{
+    border: 1px solid green;
+
+    min-height: 100vh;
+}
+
+section.descricao_pessoal#aboutme{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+section.descricao_pessoal h4{
+    margin-top: 20vh !important;
+    font-size: 1.9rem;
+}
+
+
+/*  COMPOETE SECAO-habilidades*/
+
+section.secao_descricao_habilidades{
+    border: 1px solid rgb(241, 104, 209);
+
+    text-align: center;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+}
+section.secao_descricao_habilidades h4{
+    font-size: 1.9rem;
+    margin-top: 30px;
+}
+section.secao_descricao_habilidades svg{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/*  COMPOETE SECAO-Lista de Projetos*/
+section.secao_lista_de_projetos{
+    border: 1px solid green;
+    box-sizing: border-box;
+
+}
+section.secao_lista_de_projetos>h4{
+    margin-top: 70px;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+
+
+.container_projeto{
+    min-height: max-content;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.butao_card_projeto{
+    border: 1px solid black !important;
+    color: black !important;
+    border-radius: 25px !important;
+    padding: 15px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    margin-bottom: 10px !important;
+}
+.butao_card_projeto:hover{
+    background: linear-gradient(to top right,#badcf4,#74a1d4);
+    color: black;
+}
+
+.secao_lista_de_projetos>span.card_tech_icon{
+    font-weight: bold !important;
+    display: inline !important;
+}
+span.card_tech_icon:hover{
+    
+}
+
+div.container_card_tech_icons{
+    display:'flex';
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/*  COMPOETE SECAO- Contatos*/
+section.secao_contatos{
+    border: 1px solid rgb(97, 12, 129);
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+section.secao_contatos h4{
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+
+#container_do_container_dos_cards_contatos{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.container_card_contato{
+    background: linear-gradient(to top right,#badcf4,#74a1d4);
+}
+.container_card_contato:hover{
+    cursor: pointer;
+}
+
+.card_contato_item svg{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+.card_contato_item a{
+    text-decoration: none;
+    color: black;
+}
+.card_contato_item a:hover{
+    color: white;
+}
+
+#texto_email:hover{
+    color: black;
+}
+#butao_enviar_email{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+#butao_enviar_email:hover{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+.css-1ypa3nd{
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+
+
+@media screen and (min-width:481px) and (max-width:767px){
+    .container_menu_hamburguer svg{
+        font-size: 20px !important;
+
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    section >.perfil{
+        margin-top: 60px;
+
+    }
+    .secao_nome h2{
+        font-size: 2.5rem !important;
+        margin-bottom: 0px;
+    }
+    .secao_nome h3{
+        font-size: 1.5rem !important;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    .secao_links_de_contato{ 
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 180px;
+        padding: 15px;
+        font-size: 1.3rem !important;
+    }
+
+
+    /*SECAO SOBRE MIM*/
+
+    section#aboutme.descricao_pessoal{
+        
+    
+    }
+    .css-1ycb62d > :not(style) {
+        
+        width: 80% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    .css-1ycb62d > :not(style)>p{
+        font-size: 1.9rem !important;
+    }
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 3.5rem;
+      }
+
+
+    
+    /*SECAO DE PROJETOS */
+
+    section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 3.5rem;
+        text-align: center;
+      }
+
+
+    
+   
+    
+}
+
+@media screen  and ( min-width:1025px) and (max-width:1400px){
+    /*SECAO perfil-inicio*/
+    section >.perfil{
+        margin-top: 90px;
+        width: 300px !important;
+        height: 300px !important;
+    }
+    .secao_nome h2{
+        font-size: 3rem !important;
+        margin-bottom: 0px;
+        
+
+    }
+    .secao_nome h3{
+        font-size: 2.2rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .secao_links_de_contato{ 
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 300px !important;
+        padding: 15px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secao_links_de_contato span{
+        font-size: 2rem !important;
+    }
+
+     /*SECAO SOBRE MIM*/
+
+     section#aboutme.descricao_pessoal{
+        
+    
+    }
+
+    #titulo_sobre_mim{
+        font-size: 2.5rem;
+    }
+    .css-1ycb62d > :not(style) {
+        
+        width: 80% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    .css-1ycb62d > :not(style)>p{
+        font-size: 1.9rem !important;
+    }
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 2.5rem;
+      }
+    
+
+      /*SECAO LISTA DE PROJETOS*/
+
+     
+      section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+     /*formatacao card dos projetos*/
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        width: min-content !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+    }
+    div.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+        
+    }
+
+    div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 600px;
+        height: 450px;
+    }
+
+    div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 2.1rem !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 1.8rem;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
+        font-size: 1.8rem !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons span{
+        font-size: 1.8rem !important;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        font-size: 1.8rem !important;
+    }
+
+
+    
+
+
+    .css-h93ljk-MuiTypography-root{
+        font-size: 2.2rem !important;
+    }
+
+   
+}
+
+@media screen and ( min-width:1200px) and (width:1024px){
+    section > .perfil {
+        margin-top: 90px;
+        width: 550px !important;
+        height: 550px !important;
+    }
+}
+
+
+@media screen and   (min-height:769px) and ( min-width:1334px){
+    /*SECAO perfil-inicio*/
+    section >.perfil{
+        margin-top: 90px;
+        width: 500px !important;
+        height: 500px !important;
+    }
+    .secao_nome h2{
+        font-size: 3rem !important;
+        margin-bottom: 0px;
+        
+        
+
+    }
+    .secao_nome h3{
+        font-size: 2.2rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .secao_links_de_contato{ 
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 300px !important;
+        padding: 15px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secao_links_de_contato span{
+        font-size: 2rem !important;
+    }
+
+     /*SECAO SOBRE MIM*/
+
+     section#aboutme.descricao_pessoal{
+        
+    
+    }
+
+    #titulo_sobre_mim{
+        font-size: 2.5rem;
+    }
+    .css-1ycb62d > :not(style) {
+        
+        width: 80% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    .css-1ycb62d > :not(style)>p{
+        font-size: 1.9rem !important;
+    }
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 2.5rem;
+      }
+    
+
+      /*SECAO LISTA DE PROJETOS*/
+
+     
+      section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+     /*formatacao card dos projetos*/
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        width: min-content !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+    }
+    div.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+        
+    }
+
+    div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 600px;
+        height: 450px;
+    }
+
+    div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 2.1rem !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 1.8rem;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
+        font-size: 1.8rem !important;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons span{
+        font-size: 1.8rem !important;
+    }
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        font-size: 1.8rem !important;
+    }
+    .css-h93ljk-MuiTypography-root{
+        font-size: 2.2rem !important;
+    }
+
+    
+}
+
+@media screen and   (min-height:1080px) and (min-width:1920px){
+    section >.perfil{
+        margin-top: 90px;
+        width: 500px !important;
+        height: 500px !important;
+    }
+    .secao_nome h2{
+        font-size: 3rem !important;
+        margin-bottom: 0px;
+        
+        
+
+    }
+    .secao_nome h3{
+        font-size: 2.2rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .secao_links_de_contato{ 
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 300px !important;
+        padding: 30px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secao_links_de_contato span{
+        font-size: 2rem !important;
+    }
+
+     /*SECAO SOBRE MIM*/
+
+     section#aboutme.descricao_pessoal{
+        
+    
+    }
+
+    #titulo_sobre_mim{
+        font-size: 2.5rem;
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style) {
+        
+        width: 70% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style)>p{
+        font-size: 1.9rem !important;
+    }
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 2.5rem;
+      }
+    section.descricao_pessoal> div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    }
+
+    /*SECAO LISTA DE HABILIDADES*/
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+      /*SECAO LISTA DE PROJETOS*/
+
+     
+      section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+     /*formatacao card dos projetos*/
+    
+     section.secao_lista_de_projetos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        width: min-content !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    section.secao_lista_de_projetos div.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+        
+    }
+
+    section.secao_lista_de_projetos div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 850px;
+        height: 700px;
+    }
+
+    section.secao_lista_de_projetos div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 2.1rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 1.8rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons span{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos .css-h93ljk-MuiTypography-root{
+        font-size: 2.2rem !important;
+    }
+
+
+    /* SECAO DE CONTATOS*/
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        padding: 50px;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+     div.card_contato_item#contato_linkedin{
+        
+    }
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and   (min-height:1080px) and ( min-width:1921px){
+   
+    section >.perfil{
+        margin-top: 90px;
+        width: 550px !important;
+        height: 550px !important;
+    }
+    .secao_nome h2{
+        font-size: 3rem !important;
+        margin-bottom: 0px;
+        
+        
+
+    }
+    .secao_nome h3{
+        font-size: 2.2rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .secao_links_de_contato{ 
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 300px !important;
+        padding: 30px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secao_links_de_contato span{
+        font-size: 2rem !important;
+    }
+
+     /*SECAO SOBRE MIM*/
+
+     section#aboutme.descricao_pessoal{
+        
+    
+    }
+
+    #titulo_sobre_mim{
+        font-size: 2.5rem;
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style) {
+        
+        width: 50% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style)>p{
+        font-size: 1.9rem !important;
+    }
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 2.5rem;
+      }
+    section.descricao_pessoal> div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    }
+
+    /*SECAO LISTA DE HABILIDADES*/
+
+    section.secao_descricao_habilidades div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    } 
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+      /*SECAO LISTA DE PROJETOS*/
+
+     
+      section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+     /*formatacao card dos projetos*/
+    
+     section.secao_lista_de_projetos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        width: min-content !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    section.secao_lista_de_projetos div.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+        
+    }
+
+    section.secao_lista_de_projetos div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 850px;
+        height: 700px;
+    }
+
+    section.secao_lista_de_projetos div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 2.1rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 1.8rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons span{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos .css-h93ljk-MuiTypography-root{
+        font-size: 2.2rem !important;
+    }
+
+
+    /* SECAO DE CONTATOS*/
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        padding: 50px;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+     div.card_contato_item#contato_linkedin{
+        
+    }
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and   (min-height:1440px) and (min-width:2560px){
+    
+    section >.perfil{
+        margin-top: 90px;
+        width: 700px !important;
+        height: 700px !important;
+    }
+    .secao_nome h2{
+        font-size: 5rem !important;
+        margin-bottom: 0px;  
+
+    }
+    .secao_nome h3{
+        font-size: 3.5rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .secao_links_de_contato{ 
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 450px !important;
+        padding: 30px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secao_links_de_contato span{
+        font-size: 3rem !important;
+    }
+
+     /*SECAO SOBRE MIM*/
+
+     section#aboutme.descricao_pessoal{
+        
+    
+    }
+
+    #titulo_sobre_mim{
+        font-size: 5rem;
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style) {
+        
+        width: 50% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style)>p{
+        font-size: 2.5rem !important;
+    }
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 5rem;
+      }
+    section.descricao_pessoal> div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    }
+
+    /*SECAO LISTA DE HABILIDADES*/
+
+    section.secao_descricao_habilidades div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    } 
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+
+        
+        
+    }
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root svg{
+        font-size: 4rem !important;
+    }
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root span{
+        font-size: 1.5rem !important;
+    }
+
+
+
+
+      /*SECAO LISTA DE PROJETOS*/
+
+     
+      section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+     /*formatacao card dos projetos*/
+    
+     section.secao_lista_de_projetos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        width: min-content !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    section.secao_lista_de_projetos div.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+        
+    }
+
+    section.secao_lista_de_projetos div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 850px;
+        height: 700px;
+    }
+
+    section.secao_lista_de_projetos div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 2.1rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 1.8rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons span{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        font-size: 1.8rem !important;
+    }
+    section.secao_lista_de_projetos .css-h93ljk-MuiTypography-root{
+        font-size: 2.2rem !important;
+    }
+
+
+    /* SECAO DE CONTATOS*/
+
+    
+    section.secao_contatos>h4{
+        font-size: 5rem !important;
+    }
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        padding: 100px;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+     div.card_contato_item#contato_linkedin svg{
+        font-size: 5rem !important;
+    }
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+
+
+
+
+
+    section.secao_contatos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        padding: 100px;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_contato_item svg {
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .card_contato_item a {
+        font-size: 3rem !important;
+        cursor: pointer;
+    }
+
+    #card_contato_email h6{
+        
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .card_contato_item#card_contato_email>svg {
+        height: 300px !important;
+        width: 300px !important;
+        cursor: pointer;
+    }
+    .card_contato_item a {
+        font-size: 3rem !important;
+        padding: 40px 120px !important;
+        cursor: pointer;
+    }
+
+
+
+    .card_contato_item h6{
+        font-size: 4rem !important;
+    }
+    #butao_enviar_email{
+        padding: 50px 15px;
+        border-radius: 15px;
+    }
+
+
+    section.secao_contatos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+@media screen and   (min-height:2160px) and (min-width:3840px){
+     
+    section >.perfil{
+        margin-top: 90px;
+        width: 900px !important;
+        height: 900px !important;
+    }
+    .secao_nome h2{
+        font-size: 7rem !important;
+        margin-bottom: 0px;
+        
+        
+
+    }
+    .secao_nome h3{
+        font-size: 5.5rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: 300 !important;
+    }
+
+    .secao_links_de_contato{ 
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+    
+    .secao_links_de_contato a{
+        width: 900px !important;
+        padding: 70px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .secao_links_de_contato span{
+        font-size: 5rem !important;
+    }
+
+     /*SECAO SOBRE MIM*/
+
+     section#aboutme.descricao_pessoal{
+        
+    
+    }
+
+    #titulo_sobre_mim{
+        font-size: 6rem;
+    }
+
+    section.descricao_pessoal>.css-1ycb62d > :not(style) {
+        
+        width: 50% !important;
+        margin: 0 auto !important;
+        
+        
+    }
+    section.descricao_pessoal>.css-1ycb62d > :not(style)>p{
+        font-size: 3.5rem !important;
+    }
+
+
+
+    section.secao_descricao_habilidades h4 {
+        font-size: 6rem;
+      }
+    section.descricao_pessoal> div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    }
+
+    /*SECAO LISTA DE HABILIDADES*/
+
+    section.secao_descricao_habilidades div.MuiBox-root.css-1fmrwxc{
+        width: 70%;
+    } 
+
+   section.secao_descricao_habilidades div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        
+    }
+    section.secao_descricao_habilidades div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root svg{
+        font-size: 8rem !important;
+    }
+    section.secao_descricao_habilidades div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root span{
+        font-size: 3rem !important;
+    }
+
+
+
+
+      /*SECAO LISTA DE PROJETOS*/
+
+     
+      section.secao_lista_de_projetos > h4 {
+        margin-top: 70px;
+        font-size: 6rem;
+        text-align: center;
+    }
+
+
+     /*formatacao card dos projetos*/
+    
+     section.secao_lista_de_projetos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1kzi2r8-MuiPaper-root-MuiCard-root{
+        width: min-content !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+    section.secao_lista_de_projetos div.MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+        
+    }
+
+    section.secao_lista_de_projetos div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
+        width: 1000px;
+        height: 850px;
+    }
+
+    section.secao_lista_de_projetos div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
+        font-size: 5rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root{
+        font-size: 4rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 4rem;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
+        font-size: 4rem !important;
+    }
+    section.secao_lista_de_projetos p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons span{
+        font-size: 4rem !important;
+    }
+    section.secao_lista_de_projetos button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeSmall.MuiButton-textSizeSmall.butao_card_projeto.css-1knaqv7-MuiButtonBase-root-MuiButton-root{
+        font-size: 4rem !important;
+    }
+    section.secao_lista_de_projetos .css-h93ljk-MuiTypography-root{
+        font-size: 4rem !important;
+    }
+
+
+    /* SECAO DE CONTATOS*/
+    
+    section.secao_contatos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-qh7kl5-MuiPaper-root{
+        padding: 200px;
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card_contato_item svg {
+        height: 300px;
+        width: 300px;
+        cursor: pointer;
+    }
+    .card_contato_item a {
+        font-size: 4.5rem !important;
+        cursor: pointer;
+    }
+    .card_contato_item h6{
+        font-size: 4rem !important;
+    }
+    #butao_enviar_email{
+        padding: 50px 15px;
+        border-radius: 15px;
+    }
+
+
+    section.secao_contatos div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+
+
+
+
+
+
+

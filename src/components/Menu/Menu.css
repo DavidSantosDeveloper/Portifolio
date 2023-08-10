@@ -1,0 +1,383 @@
+:root {
+    --altura_menu_hamburguer_480px:56px;
+    --altura_menu_hamburguer_720px:100px;
+}
+
+header{
+    width: 100%;
+    height: var(--altura_menu_hamburguer_480px);
+    background-color: rgb(95, 192, 217) !important;
+    border: 1px solid black !important;
+    box-sizing: border-box;
+
+    position: fixed;
+    padding-left: 10px;
+    
+
+}
+.container_menu_hamburguer{
+    height: 100%;
+    width: 150px;
+    margin-left: 5px;
+    
+
+    font-size: 1.8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+
+.container_menu_hamburguer h2{
+    font-size: 1.9rem !important;
+    margin-left: 5px;
+    height: 100% !important;
+}
+.container_menu_hamburguer svg{
+    box-sizing: border-box;
+    padding: auto 0;
+    font-size: 5rem !important;
+    font-weight: bold;
+    width: 50px;
+    height: 100px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root{
+    height: 100%;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root:hover{
+    background-color:linear-gradient(to top right,#badcf4,#74a1d4);
+    display: hidden;
+}
+
+
+
+
+.MuiAppBar-root {
+    background-color: rgb(171, 171, 171) !important;
+    background-color: rgb(8, 215, 146) !important;
+    background-color: rgb(95, 192, 217) !important;
+    border: 1px solid black !important;
+    
+
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 4rem !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.butao_sanduiche svg,.butao_sanduiche svg>path{
+    height: 100% !important;
+}
+
+#container_butao_do_texto_e_imagem{
+    display: flex;
+}
+
+
+@media screen and (max-width:480px){
+    #titulo_portifolio{
+        display: none;
+    }
+    #menu_normal{
+        display: none;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767px){
+    header{
+        height: var(--altura_menu_hamburguer_720px);
+    }
+    #container_butao_do_texto_e_imagem{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px !important;
+    }
+
+    div.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root{
+        
+    }
+    .css-1d6w9lk-MuiButtonBase-root-MuiIconButton-root svg{
+        font-size: 4rem !important;
+    }
+    .css-6b3s0t-MuiTypography-root{
+        font-size: 4rem !important;
+    }
+
+    .css-tlelie-MuiListItemText-root span{
+        font-size: 3.1rem !important;
+    }
+
+    #titulo_portifolio{
+        display: none;
+    }
+    #menu_normal{
+        display: none;
+    }
+
+    
+}
+
+@media screen and (orientation:landscape) and (width:800px) and (height:600px){
+    #titulo_portifolio{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root{
+        display: none !important;
+        background-color: chocolate !important;
+    }
+    section.container_menu_hamburguer{
+        display: none;
+    }
+
+
+    header{
+        height: 10vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       
+        
+
+    }
+    header>span{
+        font-size: 4rem;
+        color: black;
+
+    
+
+    }
+
+    header>nav#menu_normal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+        
+    }
+    header>nav a{
+        font-size: 2.0rem;
+        padding: 3.9vh 5px;
+        text-decoration: none;
+        color:black ;
+    }
+    header>nav a:hover{
+        background: white;
+        color: black;
+        border-radius: 30px;
+    }
+
+
+    section>.perfil{
+        height: 60vh !important;
+        width: auto !important;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen  and  (min-width:769px) and (max-width:1333px){
+    
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root{
+        display: none !important;
+        background-color: chocolate !important;
+    }
+    section.container_menu_hamburguer{
+        display: none !important;
+    }
+
+
+    header{
+        height: 10vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header>span{
+        font-size: 4rem;
+        color: black;
+    }
+
+    header>nav#menu_normal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+        
+    }
+    header>nav a{
+        font-size: 2.0rem;
+        padding: 3.2vh 5px;
+        text-decoration: none;
+        color:black ;
+    }
+    header>nav a:hover{
+        background: white;
+        color: black;
+        border-radius: 30px;
+    }
+
+
+    section>.perfil{
+        height: 60vh !important;
+        width: auto !important;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (orientation:landscape) and  (min-width:769px) and (max-width:1333px){
+    
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root{
+        display: none !important;
+        background-color: chocolate !important;
+    }
+    section.container_menu_hamburguer{
+        display: none;
+    }
+
+
+    header{
+        height: 10vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       
+        
+
+    }
+    header>span{
+        font-size: 4rem;
+        color: black;
+
+    
+
+    }
+
+    header>nav#menu_normal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+        
+    }
+    header>nav a{
+        font-size: 2.0rem;
+        padding: 3.2vh 5px;
+        text-decoration: none;
+        color:black ;
+    }
+    header>nav a:hover{
+        background: white;
+        color: black;
+        border-radius: 30px;
+    }
+
+
+    section>.perfil{
+        height: 60vh !important;
+        width: auto !important;
+        margin-top: 30px;
+    }
+}
+
+
+
+@media screen and (orientation:landscape) and (min-width:1334px){
+    
+    button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root{
+        display: none !important;
+        background-color: chocolate !important;
+    }
+    section.container_menu_hamburguer{
+        display: none;
+    }
+
+
+    header{
+        height: 10vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    header>span{
+        font-size: 4rem;
+        color: black;
+
+    }
+
+    header>nav#menu_normal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+        
+    }
+    header>nav a{
+        font-size: 2.5rem;
+        padding: 3.2vh 5px;
+        text-decoration: none;
+        color:black ;
+    }
+    header>nav a:hover{
+        background: white;
+        color: black;
+        border-radius: 30px;
+    }
+
+
+    section>.perfil{
+        height: 60vh !important;
+        width: auto !important;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (min-height:1440px) and (min-width:2560px){
+    header span#titulo_portifolio{
+        font-size: 7rem !important;
+    }
+    #menu_normal a{
+        font-size: 4rem;
+    }
+}
+
+@media screen and   (min-height:2160px) and (min-width:3840px){
+    #titulo_portifolio{
+        font-size: 9rem;
+    }
+    #menu_normal a{
+        font-size: 5rem;
+    }
+}
+
+
+
+
