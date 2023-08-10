@@ -11,7 +11,6 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 import { TransitionProps } from '@mui/material/transitions';
 
@@ -39,7 +38,7 @@ export default function Menu() {
 
   
 
-  const escolher_uma_opcao_do_menu= (opcao)=>{
+  const escolher_uma_opcao_do_menu= (opcao:string)=>{
     handleClose()
       console.log(window.location.host)
      
@@ -155,12 +154,12 @@ export default function Menu() {
         <List>
 
           <ListItem button >
-              <ListItemText primary="Inicio" secondary=""  onClick={(evento)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}} />
+              <ListItemText primary="Inicio" secondary=""  onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}} />
           </ListItem>
           <Divider />
 
           <ListItem button >
-              <ListItemText primary="Sobre mim" secondary=""  onClick={(evento)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}} />
+              <ListItemText primary="Sobre mim" secondary=""  onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}} />
           </ListItem>
           <Divider />
 
@@ -168,7 +167,7 @@ export default function Menu() {
             <ListItemText
               primary="Habilidades"
               secondary=""
-              onClick={(evento)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
+              onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
             />
           </ListItem>
           <Divider />
@@ -177,7 +176,7 @@ export default function Menu() {
             <ListItemText
               primary="Lista de projetos"
               secondary=""
-              onClick={(evento)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
+              onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
             />
           </ListItem>
           <Divider />
@@ -186,7 +185,7 @@ export default function Menu() {
             <ListItemText
               primary="Contato"
               secondary=""
-              onClick={(evento)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
+              onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
             />
           </ListItem>
           <Divider />
