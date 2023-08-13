@@ -38,24 +38,26 @@ export default function Menu() {
 
   
 
-  const escolher_uma_opcao_do_menu= (opcao:string)=>{
-    handleClose()
+  const escolher_uma_opcao_do_menu= (opcao:React.MouseEvent)=>{
+      handleClose()
       console.log(window.location.host)
+
+
      
-      if(opcao=='Inicio'){
+      if(opcao.currentTarget.textContent=='Inicio'){
           window.location.assign(window.location.host+'/#inicio')
       }
-      else if(opcao=='Sobre mim'){
+      else if(opcao.currentTarget.textContent=='Sobre mim'){
           
           window.location.assign(window.location.host+'/#aboutme')
       }
-      else if(opcao=='Habilidades'){
+      else if(opcao.currentTarget.textContent=='Habilidades'){
         window.location.assign(window.location.host+'/#habilities')
       }
-      else if(opcao=='Lista de projetos'){
+      else if(opcao.currentTarget.textContent=='Lista de projetos'){
         window.location.assign(window.location.host+'/#projetcs')
       }
-      else if(opcao=='Contato'){
+      else if(opcao.currentTarget.textContent=='Contato'){
         window.location.assign(window.location.host+'/#contacts')
       }
   }
@@ -67,6 +69,8 @@ export default function Menu() {
   const handleClose = () => {
     setOpen(false);
   };
+
+  
 
   
   return (
@@ -155,12 +159,12 @@ export default function Menu() {
         <List>
 
           <ListItem button >
-              <ListItemText primary="Inicio" secondary=""  onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}} />
+              <ListItemText primary="Inicio" secondary="" onClick={(evento:React.MouseEvent )=>escolher_uma_opcao_do_menu(evento)}  />
           </ListItem>
           <Divider />
 
           <ListItem button >
-              <ListItemText primary="Sobre mim" secondary=""  onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}} />
+              <ListItemText primary="Sobre mim" secondary=""  onClick={(evento:React.MouseEvent)=>{escolher_uma_opcao_do_menu(evento)}} />
           </ListItem>
           <Divider />
 
@@ -168,7 +172,7 @@ export default function Menu() {
             <ListItemText
               primary="Habilidades"
               secondary=""
-              onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
+              onClick={(evento:React.MouseEvent)=>{escolher_uma_opcao_do_menu(evento)}}
             />
           </ListItem>
           <Divider />
@@ -177,7 +181,7 @@ export default function Menu() {
             <ListItemText
               primary="Lista de projetos"
               secondary=""
-              onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
+              onClick={(evento:React.MouseEvent)=>{escolher_uma_opcao_do_menu(evento)}}
             />
           </ListItem>
           <Divider />
@@ -186,7 +190,7 @@ export default function Menu() {
             <ListItemText
               primary="Contato"
               secondary=""
-              onClick={(evento:object)=>{escolher_uma_opcao_do_menu(evento.target.innerText)}}
+              onClick={(evento:React.MouseEvent)=>{escolher_uma_opcao_do_menu(evento)}}
             />
           </ListItem>
           <Divider />
