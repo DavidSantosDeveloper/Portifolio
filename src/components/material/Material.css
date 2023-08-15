@@ -255,7 +255,11 @@ section.secao_contatos h4{
 @media screen and (min-width:481px) and (max-width:767px){
     .container_menu_hamburguer svg{
         font-size: 20px !important;
+    }
 
+    .secao_nome h2 {
+        font-size: 2rem !important;
+        color: chocolate !important;
     }
 }
 
