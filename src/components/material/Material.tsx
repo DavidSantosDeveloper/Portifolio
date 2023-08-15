@@ -57,6 +57,10 @@ export default function Material() {
     <>
       <Menu></Menu>
 
+      <span>{JSON.stringify(window.screen)}</span>
+            <span>{"vh  "+window.innerHeight+" px"}</span>
+            <span>{"vw  "+window.innerWidth+" px"}</span>
+
       <section className="secao-perfil" id='inicio'>
 
          
