@@ -43,6 +43,10 @@ const abrir_link_do_GitHub_em_nova_pagina=()=>{
 const abrir_link_do_Gmail_em_nova_pagina=()=>{
   window.open("mailto:franciscodavidsantossousa@gmail.com","") 
 }
+const abrir_link_de_um_projeto=(url_do_projeto:string)=>{
+  window.open(url_do_projeto,"") 
+}
+
 
 import "./Material.css"
 
@@ -227,8 +231,8 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button size="small" className="butao_card_projeto" >Repositório</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://lista-de-presenca-peach.vercel.app/")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Lista_De_Presenca")}}    size="small" className="butao_card_projeto" >Repositório</Button>
                 </CardActions>
               </Card>
 
@@ -259,8 +263,8 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button size="small" className="butao_card_projeto" >Repositório</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://git-hub-search-phi.vercel.app/")}}  size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/GitHubSearch")}} size="small" className="butao_card_projeto" >Repositório</Button>
                 </CardActions>
               </Card>
 
@@ -291,8 +295,8 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button size="small" className="butao_card_projeto" >Repositório</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://lista-de-tarefas-eta-five.vercel.app/")}} size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Lista_De_Tarefas")}} size="small" className="butao_card_projeto" >Repositório</Button>
                 </CardActions>
               </Card>
 
