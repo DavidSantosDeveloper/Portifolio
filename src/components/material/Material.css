@@ -257,7 +257,7 @@ section.secao_contatos h4{
         font-size: 20px !important;
     }
 
-    .secao_nome#titulo_nome>h2 {
+    .secao_nome.titulo_nome>h2 {
         font-size: 2rem !important;
         color: chocolate !important;
     }
