@@ -451,13 +451,7 @@ section.secao_contatos h4{
    
 }
 
-@media screen and ( min-width:1200px) and (width:1024px){
-    section > .perfil {
-        margin-top: 90px;
-        width: 550px !important;
-        height: 550px !important;
-    }
-}
+
 
 
 @media screen and   (min-height:769px) and ( min-width:1334px){
@@ -1114,7 +1108,7 @@ section.secao_contatos h4{
     }  
 }
 
-@media screen and   (min-height:2160px) and (min-width:3840px){
+@media screen and   (min-height:2161px) and (min-width:3840px){
      
     section >.perfil{
         margin-top: 90px;
