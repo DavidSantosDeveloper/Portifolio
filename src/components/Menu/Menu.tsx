@@ -45,20 +45,23 @@ export default function Menu() {
 
      
       if(opcao.currentTarget.textContent=='Inicio'){
-          window.location.assign(window.location.host+'/#inicio')
+          
+          window.location.href="/#inicio"
+         
       }
       else if(opcao.currentTarget.textContent=='Sobre mim'){
+          window.location.href="/#aboutme"
           
-          window.location.assign(window.location.host+'/#aboutme')
       }
       else if(opcao.currentTarget.textContent=='Habilidades'){
-        window.location.assign(window.location.host+'/#habilities')
+        window.location.href="/#habilities"
       }
       else if(opcao.currentTarget.textContent=='Lista de projetos'){
-        window.location.assign(window.location.host+'/#projetcs')
+        window.location.href="/#projetcs"
+        
       }
       else if(opcao.currentTarget.textContent=='Contato'){
-        window.location.assign(window.location.host+'/#contacts')
+        window.location.href="/#contacts"
       }
   }
 
