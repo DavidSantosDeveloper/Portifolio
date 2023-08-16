@@ -250,6 +250,84 @@ section.secao_contatos h4{
 }
 
 
+@media screen and (min-width:275px) and (max-width:359px){
+    section > .perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 2px white solid;
+        margin-top: 10px !important;
+    }
+
+    .secao_nome h2#titulo_nome {
+        font-size: 1.1rem !important;
+        margin-bottom: 0px !important;
+        color: black !important;
+        font-weight: bold !important;
+    }
+
+
+    .secao_nome h3 {
+        font-size: 1rem !important;
+        margin: 15px auto;
+        text-align: center;
+        font-weight: normal !important;
+    }
+
+
+    .secao_links_de_contato {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .secao_links_de_contato a {
+        width: 120px;
+        padding: 0px 0px;
+        border: 2px solid black;
+        border-radius: 25px;
+        box-sizing: border-box;
+        background-color: white !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 1.2rem !important;
+        text-decoration: none !important;
+        text-align: center;
+        font-weight: bold;
+        color: black;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
+        
+    }
+    h6#texto_email{
+        display: inline !important;
+        text-align: justify !important;
+        font-size: 0.9rem;
+        
+    }
+
+
+    div#container_do_container_dos_cards_contatos{
+            display: flex;
+            flex-direction: column-reverse !important;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 15px;
+
+    }
+
+
+    div.MuiBox-root.css-1ypa3nd{
+        
+    }
+}
+
 
 
 @media screen and (min-width:481px) and (max-width:767px){
