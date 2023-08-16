@@ -40,7 +40,6 @@ section >.perfil div{
 .secao_nome h2{
     font-size: 1.7rem !important;
     margin-bottom: 0px;
-    color: green !important;
 
 
 }
@@ -48,6 +47,7 @@ section >.perfil div{
     font-size: 1.3rem !important;
     margin: 15px auto;
     text-align: center;
+    font-weight: normal;
 }
 
 .secao_links_de_contato{ 
