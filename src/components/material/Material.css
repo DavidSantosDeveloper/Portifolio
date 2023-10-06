@@ -83,8 +83,7 @@ section >.perfil div{
 /*  COMPOETE SECAO-SOBREMIM*/
 
 section.secao_sobremim{
-    border: 1px solid green;
-
+    /*border: 1px solid green;*/ 
     min-height: 100vh;
 }
 
@@ -105,8 +104,7 @@ section.descricao_pessoal h4{
 /*  COMPOETE SECAO-habilidades*/
 
 section.secao_descricao_habilidades{
-    border: 1px solid rgb(241, 104, 209);
-
+    /*border: 1px solid rgb(241, 104, 209);*/
     text-align: center;
 
     min-height: 100vh;
@@ -132,7 +130,7 @@ section.secao_descricao_habilidades svg{
 
 /*  COMPOETE SECAO-Lista de Projetos*/
 section.secao_lista_de_projetos{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     box-sizing: border-box;
 
 }
@@ -184,7 +182,7 @@ div.container_card_tech_icons{
 
 /*  COMPOETE SECAO- Contatos*/
 section.secao_contatos{
-    border: 1px solid rgb(97, 12, 129);
+    /*border: 1px solid rgb(97, 12, 129);*/
     height: 100vh;
     box-sizing: border-box;
     padding-top: 20vh;

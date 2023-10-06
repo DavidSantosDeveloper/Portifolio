@@ -80,9 +80,15 @@ export default function Material() {
 
       <section className="secao_sobremim"  >
 
-            <span>{JSON.stringify(window.screen)}</span>
-            <span>{"vh  "+window.innerHeight+" px"}</span>
-            <span>{"vw  "+window.innerWidth+" px"}</span>
+            {
+              /*
+                  <span>{JSON.stringify(window.screen)}</span>
+                  <span>{"vh  "+window.innerHeight+" px"}</span>
+                  <span>{"vw  "+window.innerWidth+" px"}</span>
+              
+              */
+            }
+            
               
             <section className="descricao_pessoal" id="aboutme" >
               <h4 id='titulo_sobre_mim'>Sobre mim</h4>

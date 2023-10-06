@@ -130,6 +130,12 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPr
 
 }
 
+@media screen and (max-width:940px) {
+    header > span {
+        display: none;
+    }
+}
+
 @media screen and (min-width:768px) and (max-width:1024px){
     button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-pje0gp-MuiButtonBase-root-MuiButton-root{
         display: none !important;
