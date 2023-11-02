@@ -454,6 +454,11 @@ section.secao_contatos h4{
 
     
     /*SECAO DE PROJETOS */
+    section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     section.secao_lista_de_projetos > h4 {
         margin-top: 70px;
