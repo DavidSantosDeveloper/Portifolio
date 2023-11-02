@@ -69,7 +69,7 @@ export default function Material() {
 
                 <section className="secao_nome">
                       <h2 id='titulo_nome'>👋🏽 Olá,me chamo Francisco David</h2>
-                      <h3 id='titulo_profissao'>Sou Desenvolvedor Front-End e amante de UX/UI Experience.</h3>
+                      <h3 id='titulo_profissao'>Sou Desenvolvedor Full Stack e amante de UX/UI Experience.</h3>
                 </section>
                 <section className="secao_links_de_contato">
                     <a href="#aboutme"><span>Sobre mim</span></a>
