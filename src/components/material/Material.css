@@ -541,13 +541,21 @@ section.secao_contatos h4{
     
 
       /*SECAO LISTA DE PROJETOS*/
-
-     
       section.secao_lista_de_projetos > h4 {
         margin-top: 70px;
         font-size: 2.5rem;
         text-align: center;
     }
+      section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      div.MuiCardMedia-root.css-ry39rr {
+        height: 450px;
+        width: 600px;
+    }
+
 
 
      /*formatacao card dos projetos*/
@@ -675,6 +683,15 @@ section.secao_contatos h4{
         margin-top: 70px;
         font-size: 2.5rem;
         text-align: center;
+    }
+    section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      div.MuiCardMedia-root.css-ry39rr {
+        height: 450px;
+        width: 600px;
     }
 
 
@@ -808,6 +825,15 @@ section.secao_contatos h4{
         text-align: center;
     }
 
+    section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      div.MuiCardMedia-root.css-ry39rr {
+        height: 600px;
+        width: 750px;
+    }
 
      /*formatacao card dos projetos*/
     
@@ -966,7 +992,15 @@ section.secao_contatos h4{
         font-size: 2.5rem;
         text-align: center;
     }
-
+    section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      div.MuiCardMedia-root.css-ry39rr {
+        height: 600px;
+        width: 700px;
+    }
 
      /*formatacao card dos projetos*/
     
@@ -1132,6 +1166,15 @@ section.secao_contatos h4{
         font-size: 2.5rem;
         text-align: center;
     }
+    section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      div.MuiCardMedia-root.css-ry39rr {
+        height: 750px;
+        width: 900px;
+    }
 
 
      /*formatacao card dos projetos*/
@@ -1259,7 +1302,7 @@ section.secao_contatos h4{
     }  
 }
 
-@media screen and   (min-height:2161px) and (min-width:3840px){
+@media screen and   (min-height:2160px) and (min-width:3840px){
      
     section >.perfil{
         margin-top: 90px;
@@ -1364,6 +1407,16 @@ section.secao_contatos h4{
         font-size: 6rem;
         text-align: center;
     }
+    section.secao_lista_de_projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      div.MuiCardMedia-root.css-ry39rr {
+        height: 900px;
+        width: 1050px;
+    }
+
 
 
      /*formatacao card dos projetos*/
@@ -1380,8 +1433,8 @@ section.secao_contatos h4{
     }
 
     section.secao_lista_de_projetos div.MuiCardMedia-root.css-9kkv69-MuiCardMedia-root{
-        width: 1000px;
-        height: 850px;
+        width: 1000px !important;
+        height: 850px !important;
     }
 
     section.secao_lista_de_projetos div.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root{
