@@ -147,6 +147,16 @@ section.secao_lista_de_projetos>h4{
     border: 1px solid black;
     margin-bottom: 20px;
 }
+ p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root a{
+    font-size: inherit;
+ }
+p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root a:hover{
+    background: linear-gradient(to top right,#badcf4,#74a1d4);
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .butao_card_projeto{
     border: 1px solid black !important;
@@ -166,9 +176,7 @@ section.secao_lista_de_projetos>h4{
     font-weight: bold !important;
     display: inline !important;
 }
-span.card_tech_icon:hover{
-    
-}
+
 
 div.container_card_tech_icons{
     display:'flex';
@@ -299,10 +307,6 @@ section.secao_contatos h4{
         align-items: center;
     }
 
-
-    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
-        
-    }
     h6#texto_email{
         display: inline !important;
         text-align: justify !important;
@@ -318,11 +322,6 @@ section.secao_contatos h4{
             align-items: center;
             gap: 15px;
 
-    }
-
-
-    div.MuiBox-root.css-1ypa3nd{
-        
     }
 }
 
@@ -363,9 +362,6 @@ section.secao_contatos h4{
         color: black;
       }
 
-      div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation5.css-bbua1c-MuiPaper-root{
-        
-    }
     h6#texto_email{
         display: inline !important;
         text-align: justify !important;
@@ -381,11 +377,6 @@ section.secao_contatos h4{
             align-items: center;
             gap: 15px;
 
-    }
-
-
-    div.MuiBox-root.css-1ypa3nd{
-        
     }
 
 
@@ -450,6 +441,9 @@ section.secao_contatos h4{
         
     }
     .css-1ycb62d > :not(style)>p{
+        font-size: 1.9rem !important;
+    }
+    .css-1ycb62d > :not(style)>p a{
         font-size: 1.9rem !important;
     }
 
@@ -532,7 +526,7 @@ section.secao_contatos h4{
     .css-1ycb62d > :not(style)>p{
         font-size: 1.9rem !important;
     }
-
+    
     section.secao_descricao_habilidades h4 {
         font-size: 2.5rem;
       }
@@ -571,6 +565,9 @@ section.secao_contatos h4{
         font-size: 1.8rem;
     }
     p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p a{
         font-size: 2rem;
     }
     p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{
@@ -696,6 +693,9 @@ section.secao_contatos h4{
         font-size: 1.8rem;
     }
     p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p{
+        font-size: 2rem;
+    }
+    p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root>p a{
         font-size: 2rem;
     }
     p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root div.container_card_tech_icons svg{

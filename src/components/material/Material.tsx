@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
-import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase} from "react-icons/fa";
+import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs} from "react-icons/fa";
 import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import { AiOutlineCode } from "react-icons/ai"
@@ -28,6 +28,7 @@ import Typography from '@mui/material/Typography';
 import imagem_projeto_lista_de_presenca from './../../assets/projeto_lista_de_presenca.png'
 import imagem_projeto_github_search from "./../../assets/projeto_github_search.png"
 import imagem_projeto_lista_de_tarefas from './../../assets/projeto_lista_de_tarefas.png'
+import imagem_projeto_companhia_aerea from "./../../assets/projeto_companhia_aerea.png"
 
 //parte dos contatos
 import { SiLinkedin } from "react-icons/si";
@@ -389,6 +390,39 @@ export default function Material() {
                 <CardActions>
                   <Button onClick={()=>{abrir_link_de_um_projeto("https://lista-de-tarefas-eta-five.vercel.app/")}} size="small" className="butao_card_projeto" >Ver Projeto</Button>
                   <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Lista_De_Tarefas")}} size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
+
+            <section id="projeto_companhia_aerea" className="container_projeto">
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    image={imagem_projeto_companhia_aerea}
+                    title="projeto_github_search"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Companhia Aérea 
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                  Mini Sistema de Companhia Aérea desenvolvido  para um desafio técnico,cujo requisitos podem ser vistos com detalhes no link a seguir: <a href="https://docs.google.com/document/d/1VVckJEB3RyTF8fgC7gsnCX76vTl0fWU-tqw5Ekwhqgw/edit?usp=sharing" target="_blank">Requisitos</a> (O nome da empresa foi presevado). A aplicação inclui cadrastro e validação de campos multivalorados de formulários,custominização de mensagens informativas ao usuário,armazenamento dos dados e geração de relatórios sobre os voos.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'space-between'}} className="container_card_tech_icons">
+                            <span  className=".card_tech_icon"><FaHtml5></FaHtml5> HTML5</span>
+                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS 3</span>
+                            <span className=".card_tech_icon"><FaJs></FaJs>JavaScript</span>
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://companhia-aerea-pink.vercel.app/")}} size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/companhia-aerea")}} size="small" className="butao_card_projeto" >Repositório</Button>
                 </CardActions>
               </Card>
 
