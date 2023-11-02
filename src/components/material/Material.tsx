@@ -401,7 +401,7 @@ export default function Material() {
                 <CardMedia
                     sx={{ height: '250px' ,width:'300px'}}
                     image={imagem_projeto_companhia_aerea}
-                    title="projeto_github_search"
+                    title="projeto_companhia_aerea"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
