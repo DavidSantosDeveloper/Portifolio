@@ -375,7 +375,7 @@ export default function Material() {
                   Lista de Tarefas
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                   Sistema de  Lista de tarefas com as funcionalidades de criar tarefas (com persistencia de dados), editar tarefas existentes,deletar tarefas e mostrar/ocultar conteúdo total  de uma respectiva tarefa.
+                   Sistema de  Lista de tarefas com as funcionalidades de criar tarefas (com persistência de dados), editar tarefas existentes,deletar tarefas e mostrar/ocultar conteúdo total  de uma respectiva tarefa.
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
