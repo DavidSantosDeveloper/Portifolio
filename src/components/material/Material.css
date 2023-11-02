@@ -464,10 +464,9 @@ section.secao_contatos h4{
         height: 450px;
         width: 600px;
     }
-
-
-    
-   
+    div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-oab86b{
+        width: 80vw;
+    }
     
 }
 
