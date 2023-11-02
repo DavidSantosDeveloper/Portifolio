@@ -7,10 +7,11 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
-import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs} from "react-icons/si";
-import { TbApi } from "react-icons/tb";
-
+import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase} from "react-icons/fa";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign} from "react-icons/si";
+import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
+import { AiOutlineCode } from "react-icons/ai"
+import { DiResponsive } from "react-icons/di";
 
 //foto de perfil
 import perfil from '../../assets/perfil.jpg'
@@ -156,9 +157,10 @@ export default function Material() {
                         <FaCss3></FaCss3>
                         <span >CSS 3</span>
                     </Paper>
+                    
                     <Paper elevation={5}>
-                        <FaSass></FaSass>
-                        <span >SAAS</span>
+                        <DiResponsive></DiResponsive>
+                        <span >Responsividade</span>
                     </Paper>
                     <Paper elevation={5}>
                         <FaJsSquare></FaJsSquare>
@@ -177,6 +179,10 @@ export default function Material() {
                         <span > Next JS</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <FaSass></FaSass>
+                        <span >SAAS</span>
+                    </Paper>
+                    <Paper elevation={5}>
                         <SiStyledcomponents></SiStyledcomponents>
                         <span >Styled-Components</span>
                     </Paper>
@@ -185,20 +191,92 @@ export default function Material() {
                         <span >CSS Modules</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <SiMaterialdesign></SiMaterialdesign>
+                        <span >Material Design</span>
+                    </Paper>
+                    <Paper elevation={5}>
                         <SiRedux></SiRedux>
                         <span >Redux</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <AiOutlineCode></AiOutlineCode>
+                        <span>Programação Orientada à Objeto</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <AiOutlineCode></AiOutlineCode>
+                        <span>Princíprios de programação SOLID</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <AiOutlineCode></AiOutlineCode>
+                        <span>Princíprios de programação CLEAN CODE</span>
                     </Paper>
                     <Paper elevation={5}>
                         <FaNode></FaNode>
                         <span >Node JS</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <FaJava></FaJava>
+                        <span >Java</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <SiSpring></SiSpring>
+                        <span >Spring</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <SiSpringboot></SiSpringboot>
+                        <span >Spring Boot</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <FaPython></FaPython>
+                        <span >Python</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <FaCuttlefish></FaCuttlefish>
+                        <span >C</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <TbBrandCpp></TbBrandCpp>
+                        <span >C++</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <TbBrandCSharp></TbBrandCSharp>
+                        <span >C#</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <SiDotnet></SiDotnet>
+                        <span >dotNet</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <FaPhp></FaPhp>
+                        <span >PHP</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <FaDatabase></FaDatabase>
+                        <span >Modelagem de BD Relacional</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <TbSql></TbSql>
+                        <span >SQL</span>
+                    </Paper>
+                    <Paper elevation={5}>
                         <SiPostgresql></SiPostgresql>
                         <span >Postgree Sql</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <SiMysql></SiMysql>
+                        <span >MySQL</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <SiMongodb></SiMongodb>
+                        <span >MongoDB</span>
+                    </Paper>
+                    <Paper elevation={5}>
                         <TbApi></TbApi>
-                        <span >Consumo de APIs REST</span>
+                        <span >Consumo de API`s REST</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <TbApi></TbApi>
+                        <span >Criação de API`s REST</span>
                     </Paper>
                     <Paper elevation={5}>
                         <FaGitAlt></FaGitAlt>
