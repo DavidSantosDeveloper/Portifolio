@@ -123,7 +123,7 @@ export default function Material() {
                         */
                      }
                         <p>
-                            Sou estudante do 2º período de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí (IFPI), campus Teresina Central. Desde a infância, nutro uma paixão pela tecnologia e pelo desenvolvimento de software. Essa afinidade se acentuou durante o curso técnico integrado ao ensino médio em Informática no IFPI e ganhou novas dimensões com a minha atual jornada na graduação.
+                            Sou estudante do 3º período de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí (IFPI), campus Teresina Central. Desde a infância, nutro uma paixão pela tecnologia e pelo desenvolvimento de software. Essa afinidade se acentuou durante o curso técnico integrado ao ensino médio em Informática no IFPI e ganhou novas dimensões com a minha atual jornada na graduação.
                         </p>
                         <p>
                         Meu foco principal está em desenvolver tanto a interface como a lógica da aplicação com foco na experiência do usuário e na escalabilidade do sistema. A aplicação dos conceitos da área de UX/UI Design é uma parte crucial do meu aprendizado, visto que me permite aprimorar a interseção entre a tecnologia e a experiência humana. Além disso, busco continuamente aprimorar-me em temas como o pensamento computacional, algoritmos, estrutura de dados e arquitetura de sistemas, pois são essenciais para o desenvolvimento de soluções backend eficientes, escaláveis e seguras.
