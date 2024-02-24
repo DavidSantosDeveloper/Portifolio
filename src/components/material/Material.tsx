@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
-import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs} from "react-icons/fa";
+import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular} from "react-icons/fa";
 import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import { AiOutlineCode } from "react-icons/ai"
@@ -187,6 +187,10 @@ export default function Material() {
                     <Paper elevation={5}>
                         <SiNextdotjs></SiNextdotjs>
                         <span > Next JS</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <FaAngular></FaAngular>
+                        <span >Angular</span>
                     </Paper>
                     <Paper elevation={5}>
                         <FaSass></FaSass>
