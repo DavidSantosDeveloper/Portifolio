@@ -372,10 +372,10 @@ export default function Material() {
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                Lista de presença
+                 Landing psge MED
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                      Sistema de registro de presença de pessoas em um evento,especificando a data e hora do registro da assinatura.
+                    Landing page para uma empresa fictícia na área da saúde.
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
@@ -383,14 +383,13 @@ export default function Material() {
                             <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
                             <span className=".card_tech_icon"><FaCss3></FaCss3>CSS</span>
                             <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
-                            <span className=".card_tech_icon" style={{marginLeft:'15px'}}><FaReact></FaReact>React JS</span>
                       </div>
                       
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://lista-de-presenca-peach.vercel.app/")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Lista_De_Presenca")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://landing-page-med.vercel.app/")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Landing_Page_MED")}}    size="small" className="butao_card_projeto" >Repositório</Button>
                 </CardActions>
               </Card>
 
