@@ -582,7 +582,7 @@ export default function Material() {
                                 <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
         
                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
-                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate  e Validation</span>
+                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
                                  <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
                                  <div style={{display:"block"}}>
                                 <span className=".card_tech_icon" style={{marginLeft:'0px',display:"block"}}>  <SiFlyway></SiFlyway> Flyway</span>
