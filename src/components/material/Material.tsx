@@ -372,7 +372,7 @@ export default function Material() {
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                 Landing psge MED
+                 Landing page empresa MED
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                     Landing page para uma empresa fictícia na área da saúde.
