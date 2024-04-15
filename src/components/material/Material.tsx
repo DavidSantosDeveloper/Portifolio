@@ -578,7 +578,7 @@ export default function Material() {
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
-                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px',wrap:"wrap"}} className="container_card_tech_icons">
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
                                 <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
         
                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
