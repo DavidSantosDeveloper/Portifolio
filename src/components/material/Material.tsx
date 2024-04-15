@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
 import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign} from "react-icons/si";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import { AiOutlineCode } from "react-icons/ai"
 import { DiResponsive } from "react-icons/di";
@@ -29,6 +29,8 @@ import imagem_projeto_lista_de_presenca from './../../assets/projeto_lista_de_pr
 import imagem_projeto_github_search from "./../../assets/projeto_github_search.png"
 import imagem_projeto_lista_de_tarefas from './../../assets/projeto_lista_de_tarefas.png'
 import imagem_projeto_companhia_aerea from "./../../assets/projeto_companhia_aerea.png"
+import imagem_projeto_ecommerce_jogos from "./../../assets/projeto_ecommerce_jogos.png"
+import imagem_projeto_landing_page_med from "./../../assets/projeto_landing_page_med.jpeg"
 
 //parte dos contatos
 import { SiLinkedin } from "react-icons/si";
@@ -123,7 +125,7 @@ export default function Material() {
                         */
                      }
                         <p>
-                            Sou estudante do 3º período de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí (IFPI), campus Teresina Central. Desde a infância, nutro uma paixão pela tecnologia e pelo desenvolvimento de software. Essa afinidade se acentuou durante o curso técnico integrado ao ensino médio em Informática no IFPI e ganhou novas dimensões com a minha atual jornada na graduação.
+                            Sou estudante do 3º período de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí (IFPI), campus Teresina Central e aluno do SENAI no curso desenvolvedor Full-Stack Angular e Dotnet. Desde a infância, nutro uma paixão pela tecnologia e pelo desenvolvimento de software. Essa afinidade se acentuou durante o curso técnico integrado ao ensino médio em Informática no IFPI e ganhou novas dimensões com a minha atual jornada na graduação.
                         </p>
                         <p>
                         Meu foco principal está em desenvolver tanto a interface como a lógica da aplicação com foco na experiência do usuário e na escalabilidade do sistema. A aplicação dos conceitos da área de UX/UI Design é uma parte crucial do meu aprendizado, visto que me permite aprimorar a interseção entre a tecnologia e a experiência humana. Além disso, busco continuamente aprimorar-me em temas como o pensamento computacional, algoritmos, estrutura de dados e arquitetura de sistemas, pois são essenciais para o desenvolvimento de soluções backend eficientes, escaláveis e seguras.
@@ -311,11 +313,61 @@ export default function Material() {
 
       <section className="secao_lista_de_projetos" id='projetcs'>
             <h4>Lista de projetos</h4>
-            <section id="projeto_lista_de_presenca" className="container_projeto" >
+
+            <section id="projeto_ecommerce_jogos" className="container_projeto" >
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
                 <CardMedia
                     sx={{ height: '250px' ,width:'300px'}}
-                    image={imagem_projeto_lista_de_presenca}
+                    image={imagem_projeto_ecommerce_jogos}
+                    title="projeto lista de presenca"
+                />
+                
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                E-commerce de jogos (Em Desenvolvimento)
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      Sistema de e-commerce de jogos. Projeto envolve rotas autentificadas,login de usuarios(clientes,funcionarios e administradores) por enquanto via JSON SERVER.funcionarios autorizados podem cadrastrar novos produtos(Implementado) e gerenciar todas as vendas e transações(em breve).Será implementado o controle granular das permissões e autorizações.No momento estou desenvolvendo a API REST que conectará o front-end e o back end e também disponibilizando,brevemente, as formas de pagamento. Com relação aos clientes e produtos será implementado em breve o cadrastro e o carinho de compras.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px',flexWrap:"wrap"}} className="container_card_tech_icons">
+                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS</span>
+                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className=".card_tech_icon" style={{marginLeft:'5px'  }}> <FaAngular></FaAngular>Angular</span>
+                            <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+                           {/* // <div style={{display:'block'}}> */}
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring</span>
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiFlyway></SiFlyway> Flyway</span>
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>   <TbApi></TbApi>API REST</span>
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring Security</span>
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSql</span>
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>   <TbApi></TbApi>Consumo de API REST</span>
+                                
+                            {/* </div> */}
+                
+                            
+
+                           
+
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://modulo-front-end-com-angular-com-consumo-d-davidsantosdeveloper.vercel.app/inicio")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Modulo_Front-End_com_Angular_Com_Consumo_De_API_Full-Stack_Senai_SP")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+            <section id="projeto_landing_page_med" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                     image={imagem_projeto_landing_page_med}
                     title="projeto lista de presenca"
                 />
                 <CardContent>
@@ -357,6 +409,7 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       Sistema de busca de dados públicos de usuários do site Github da empresa Microsoft,plataforma esta muito famosa no mundo do 
                       desenvolvimento de software. O GitHubSearch lista informações de um usuario desta plataforma e mostra os softwares desenvolvidos pelos usuários pesquisados, assim como permitir um fácil acesso ao perfil dos mesmos e aos repositórios dos projetos.
+                      O projeto explora tópicos como Consumo de API REST do site github,Gerenciamento de estados,Renderizaçõo condicional e componentização.
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
@@ -364,6 +417,8 @@ export default function Material() {
                             <span className=".card_tech_icon"><FaHtml5></FaHtml5> HTML5</span>
                             <span className=".card_tech_icon"><FaCss3></FaCss3>CSS 3</span>
                             <span className=".card_tech_icon"><FaReact></FaReact>React JS</span>
+                            <span className=".card_tech_icon"> <TbApi></TbApi>Consumo de API REST</span>
+                           
                       </div>
                       
                 </Typography>
@@ -375,7 +430,6 @@ export default function Material() {
               </Card>
 
             </section>
-
             <section id="projeto_lista_de_tarefas" className="container_projeto">
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
                 <CardMedia
@@ -388,7 +442,7 @@ export default function Material() {
                   Lista de Tarefas
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                   Sistema de  Lista de tarefas com as funcionalidades de criar tarefas (com persistência de dados), editar tarefas existentes,deletar tarefas e mostrar/ocultar conteúdo total  de uma respectiva tarefa.
+                   Sistema de  Lista de tarefas com as funcionalidades de criar tarefas (com persistência de dados), editar tarefas existentes,deletar tarefas e mostrar/ocultar conteúdo total  de uma respectiva tarefa. Projeto envolve gerenciamento de estado,responsividade,utilização de blibliotecas auxiliares criadas por mim,componentização e boas práticas de desenvolvimento e desempenho em React.
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
@@ -407,8 +461,6 @@ export default function Material() {
               </Card>
 
             </section>
-
-
             <section id="projeto_companhia_aerea" className="container_projeto">
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
                 <CardMedia
@@ -429,6 +481,8 @@ export default function Material() {
                             <span  className=".card_tech_icon"><FaHtml5></FaHtml5> HTML5</span>
                             <span className=".card_tech_icon"><FaCss3></FaCss3>CSS 3</span>
                             <span className=".card_tech_icon"><FaJs></FaJs>JavaScript</span>
+                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>TypeScript</span>
+                            
                       </div>
                       
                 </Typography>
@@ -440,6 +494,119 @@ export default function Material() {
               </Card>
 
             </section>
+
+            <section id="projeto_lista_de_presenca" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    image={imagem_projeto_lista_de_presenca}
+                    title="projeto lista de presenca"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                Lista de presença
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      Sistema de registro de presença de pessoas em um evento,especificando a data e hora do registro da assinatura.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px'}} className="container_card_tech_icons">
+                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS</span>
+                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className=".card_tech_icon" style={{marginLeft:'15px'}}><FaReact></FaReact>React JS</span>
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://lista-de-presenca-peach.vercel.app/")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/Lista_De_Presenca")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
+            <section id="projeto_api_hotel" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto lista de presenca"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+              API REST hotel
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                    API REST HOTEL contendo recursos hospede,funcionario,apto(apartamento ),categoria e hospedagem
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'left' ,gap:'20px'}} className="container_card_tech_icons">
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+        
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring WEB</span>
+                                 <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                 <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
+            <section id="projeto_api_awpags" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto lista de presenca"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+              API AWPAGS
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                    API AWPAGS contendo recursos Cliente e Parcelamento,o projeto utiliza conceitos de DDD,trata excecções,valida dados da api com ben validation e cria validações custominizadas,versionamento de banco de dados com flyway.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px',wrap:"wrap"}} className="container_card_tech_icons">
+                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+        
+                                <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
+                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate  e Validation</span>
+                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                 <div style={{display:"block"}}>
+                                <span className=".card_tech_icon" style={{marginLeft:'0px',display:"block"}}>  <SiFlyway></SiFlyway> Flyway</span>
+                                 </div>
+                                
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
+
+        
+           
+
+          
+
+        
 
       </section>
 
