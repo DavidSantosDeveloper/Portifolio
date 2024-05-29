@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
-import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular} from "react-icons/fa";
+import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs} from "react-icons/fa";
 import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import { AiOutlineCode } from "react-icons/ai"
@@ -31,7 +31,7 @@ import imagem_projeto_lista_de_tarefas from './../../assets/projeto_lista_de_tar
 import imagem_projeto_companhia_aerea from "./../../assets/projeto_companhia_aerea.png"
 import imagem_projeto_ecommerce_jogos from "./../../assets/projeto_ecommerce_jogos.png"
 import imagem_projeto_landing_page_med from "./../../assets/projeto_landing_page_med.jpeg"
-
+import imagem_projeto_vue from "../../assets/projeto_vue.jpeg"
 //parte dos contatos
 import { SiLinkedin } from "react-icons/si";
 import { LuMail} from "react-icons/lu";
@@ -193,6 +193,10 @@ export default function Material() {
                     <Paper elevation={5}>
                         <FaAngular></FaAngular>
                         <span >Angular</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <FaVuejs></FaVuejs>
+                        <span >Vue JS</span>
                     </Paper>
                     <Paper elevation={5}>
                         <FaSass></FaSass>
@@ -526,6 +530,40 @@ export default function Material() {
               </Card>
 
             </section>
+            <section id="projeto_lista_de_presenca" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    image={imagem_projeto_vue}
+                    title="projeto lista de presenca"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                Prototipo de sistema de gestão de colaboradores
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      Mini Sistema de gestão de colaboradores feito a partir de um design Figma. O sistema consome uma API Rest que lista os colaboradores e permite o cadrastro de novos colaboradores.
+                      O projeto utiliza a arquitetura front-end SPA (Single Page Application) com roteamento e autentificação por tokens.
+                      Exemplo de um usuário para login:  usuario_teste_mario@infog2.com e senha:admin
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px'}} className="container_card_tech_icons">
+                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className=".card_tech_icon"><FaSass></FaSass>Sass</span>
+                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className=".card_tech_icon" style={{marginLeft:'15px'}}><FaVuejs></FaVuejs>Vue JS</span>
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://projeto-desafio-vue.vercel.app/#/")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/projeto_desafio_vue")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
 
             <section id="projeto_api_hotel" className="container_projeto" >
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
@@ -598,7 +636,7 @@ export default function Material() {
               </Card>
 
             </section>
-
+            
 
         
            
