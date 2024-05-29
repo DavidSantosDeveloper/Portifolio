@@ -412,7 +412,7 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       Sistema de busca de dados públicos de usuários do site Github da empresa Microsoft,plataforma esta muito famosa no mundo do 
                       desenvolvimento de software. O GitHubSearch lista informações de um usuario desta plataforma e mostra os softwares desenvolvidos pelos usuários pesquisados, assim como permitir um fácil acesso ao perfil dos mesmos e aos repositórios dos projetos.
-                      O projeto explora tópicos como Consumo de API REST do site github,Gerenciamento de estados,Renderizaçõo condicional e componentização.
+                      O projeto explora tópicos como Consumo de API REST do site github,Gerenciamento de estados,Renderização condicional e componentização.
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
