@@ -530,12 +530,12 @@ export default function Material() {
               </Card>
 
             </section>
-            <section id="projeto_lista_de_presenca" className="container_projeto" >
+            <section id="projeto_vue" className="container_projeto" >
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
                 <CardMedia
                     sx={{ height: '250px' ,width:'300px'}}
                     image={imagem_projeto_vue}
-                    title="projeto lista de presenca"
+                    title="projeto de gestão de colaboradores"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
