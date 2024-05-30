@@ -539,7 +539,7 @@ export default function Material() {
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                Prototipo de sistema de gestão de colaboradores
+                Protótipo de sistema de gestão de colaboradores
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       Mini Sistema de gestão de colaboradores feito a partir de um design Figma. O sistema consome uma API Rest que lista os colaboradores e permite o cadrastro de novos colaboradores.
