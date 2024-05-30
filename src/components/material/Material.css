@@ -186,11 +186,56 @@ p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root a:hover{
 div.container_card_tech_icons{
     display:'flex';
     justify-content: space-between;
+    /* border: 3px solid red; */
+
+}
+span.card_tech_icon{
+    display:block !important;
+    /* border: 3px solid blue; */
+    font-weight: bold;
 }
 
+.color-html svg{
+    color: orangered;
+}
+.color-css svg{
+    color: rgb(77, 77, 244);
+}
+.color-ts svg{
+    color: rgb(77, 77, 244);
+}
+.color-angular svg{
+    color: rgb(255, 46, 9);
+}
+.color-java svg{
+    font-weight: bolder;
+    color: black;
+}
+.color-spring svg{
+    color: green;
+}
+.color-postgree svg{
+    color: blue;
+}
+.color-flyway svg{
+    color: rgb(255, 46, 9);
+}
+.color-api-rest svg{ 
+    color: black;
+}
+.color-react svg{ 
+    color: blue;
+}
+.color-js svg{ 
+    color: rgb(158, 165, 24);
+}
+.color-vue svg{ 
+    color: green;
+}
+.color-sass svg{ 
+    color: rgb(255, 12, 162);
 
-
-
+}
 
 
 /*  COMPOETE SECAO- Contatos*/

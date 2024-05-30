@@ -336,19 +336,19 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px',flexWrap:"wrap"}} className="container_card_tech_icons">
-                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS</span>
-                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
-                            <span className=".card_tech_icon" style={{marginLeft:'5px'  }}> <FaAngular></FaAngular>Angular</span>
-                            <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+                            <span className="card_tech_icon color-html" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-css"><FaCss3></FaCss3>CSS</span>
+                            <span className="card_tech_icon color-ts"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className="card_tech_icon color-angular" style={{marginLeft:'5px'  }}> <FaAngular></FaAngular>Angular</span>
+                            <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
                            {/* // <div style={{display:'block'}}> */}
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring</span>
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiFlyway></SiFlyway> Flyway</span>
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>   <TbApi></TbApi>API REST</span>
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring Security</span>
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSql</span>
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>   <TbApi></TbApi>Consumo de API REST</span>
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring</span>
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                <span className="card_tech_icon color-flyway" style={{marginLeft:'5px'}}>  <SiFlyway></SiFlyway> Flyway</span>
+                                <span className="card_tech_icon color-api-rest" style={{marginLeft:'5px'}}>   <TbApi></TbApi>API REST</span>
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring Security</span>
+                                <span className="card_tech_icon color-postgree" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSql</span>
+                                <span className="card_tech_icon color-api-rest" style={{marginLeft:'5px'}}>   <TbApi></TbApi>Consumo de API REST</span>
                                 
                             {/* </div> */}
                 
@@ -384,9 +384,9 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px'}} className="container_card_tech_icons">
-                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS</span>
-                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className="card_tech_icon color-html" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-css"><FaCss3></FaCss3>CSS</span>
+                            <span className="card_tech_icon color-ts"><SiTypescript></SiTypescript>Typescript</span>
                       </div>
                       
                 </Typography>
@@ -417,10 +417,10 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'space-between'}} className="container_card_tech_icons">
-                            <span className=".card_tech_icon"><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS 3</span>
-                            <span className=".card_tech_icon"><FaReact></FaReact>React JS</span>
-                            <span className=".card_tech_icon"> <TbApi></TbApi>Consumo de API REST</span>
+                            <span className="card_tech_icon color-html"><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-css"><FaCss3></FaCss3>CSS 3</span>
+                            <span className="card_tech_icon color-react"><FaReact></FaReact>React JS</span>
+                            <span className="card_tech_icon color-api-rest"> <TbApi></TbApi>Consumo de API REST</span>
                            
                       </div>
                       
@@ -450,9 +450,9 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'space-between'}} className="container_card_tech_icons">
-                            <span  className=".card_tech_icon"><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS 3</span>
-                            <span className=".card_tech_icon"><FaReact></FaReact>React JS</span>
+                            <span  className="card_tech_icon color-html"><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-css"><FaCss3></FaCss3>CSS 3</span>
+                            <span className="card_tech_icon color-react"><FaReact></FaReact>React JS</span>
                       </div>
                       
                 </Typography>
@@ -481,10 +481,10 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'space-between'}} className="container_card_tech_icons">
-                            <span  className=".card_tech_icon"><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS 3</span>
-                            <span className=".card_tech_icon"><FaJs></FaJs>JavaScript</span>
-                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>TypeScript</span>
+                            <span  className="card_tech_icon color-html"><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-css"><FaCss3></FaCss3>CSS 3</span>
+                            <span className="card_tech_icon color-js"><FaJs></FaJs>JavaScript</span>
+                            <span className="card_tech_icon color-ts"><SiTypescript></SiTypescript>TypeScript</span>
                             
                       </div>
                       
@@ -515,10 +515,10 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px'}} className="container_card_tech_icons">
-                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaCss3></FaCss3>CSS</span>
-                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
-                            <span className=".card_tech_icon" style={{marginLeft:'15px'}}><FaReact></FaReact>React JS</span>
+                            <span className="card_tech_icon color-html" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-css"><FaCss3></FaCss3>CSS</span>
+                            <span className="card_tech_icon color-ts"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className="card_tech_icon color-react" style={{marginLeft:'15px'}}><FaReact></FaReact>React JS</span>
                       </div>
                       
                 </Typography>
@@ -548,11 +548,11 @@ export default function Material() {
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
-                      <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px'}} className="container_card_tech_icons">
-                            <span className=".card_tech_icon" ><FaHtml5></FaHtml5> HTML5</span>
-                            <span className=".card_tech_icon"><FaSass></FaSass>Sass</span>
-                            <span className=".card_tech_icon"><SiTypescript></SiTypescript>Typescript</span>
-                            <span className=".card_tech_icon" style={{marginLeft:'15px'}}><FaVuejs></FaVuejs>Vue JS</span>
+                      <div style={{display:'flex',justifyContent:'space-between' ,gap:'15px',fontWeight:'bold'}} className="container_card_tech_icons">
+                            <span className="card_tech_icon color-html" ><FaHtml5></FaHtml5> HTML5</span>
+                            <span className="card_tech_icon color-sass"><FaSass></FaSass>Sass</span>
+                            <span className="card_tech_icon color-ts"><SiTypescript></SiTypescript>Typescript</span>
+                            <span className="card_tech_icon color-vue" style={{marginLeft:'15px'}}><FaVuejs></FaVuejs>Vue JS</span>
                       </div>
                       
                 </Typography>
@@ -582,11 +582,11 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'left' ,gap:'20px'}} className="container_card_tech_icons">
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
         
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring WEB</span>
-                                 <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
-                                 <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring WEB</span>
+                                 <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
                       </div>
                       
                 </Typography>
@@ -616,13 +616,15 @@ export default function Material() {
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
                       <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
-                                <span className=".card_tech_icon" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+                      {/* <img src="../../../public/java-logo.svg"/> */}
+                       
+                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}><FaJava></FaJava>     Java</span>
         
-                                <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
-                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
-                                 <span className=".card_tech_icon" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
+                                 <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
                                  <div style={{display:"block"}}>
-                                <span className=".card_tech_icon" style={{marginLeft:'0px',display:"block"}}>  <SiFlyway></SiFlyway> Flyway</span>
+                                <span className="card_tech_icon color-flyway" style={{marginLeft:'0px',display:"block"}}>  <SiFlyway></SiFlyway> Flyway</span>
                                  </div>
                                 
                       </div>
