@@ -8,8 +8,9 @@ import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
 import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway} from "react-icons/si";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp } from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
+import {GrMysql} from "react-icons/gr"
 import { AiOutlineCode } from "react-icons/ai"
 import { DiResponsive } from "react-icons/di";
 
@@ -639,7 +640,44 @@ export default function Material() {
 
             </section>
             
+            <section id="projeto_mvc_dotnet_sistema_vendas" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto_mvc_dotnet_sistema_vendas"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+             Sistema de vendas MVC dotnet
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                   Projeto Desenvolvido como trabalho final da disciplina Análise e Projeto de Sistemas pertecente a grade curricular da graduação.O mesmo foi implementado a partir de um diagrama UML(Unified Modeling Language).
+                   O Sistema web MVC foi construido utilizando .NET Framework ,Entity Framework como ORM,MySQL como banco de dados,foi criado as Views(Páginas web) como também os Controllers para atuação como API REST. 
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
+                      {/* <img src="../../../public/java-logo.svg"/> */}
+                       
+        
+                                <span className="card_tech_icon color-csharp" style={{marginLeft:'0px'}}>  <SiCsharp></SiCsharp> C#</span>
+                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet> .NET</span>
+                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet>Entity Framework</span>
+                                 <span className="card_tech_icon color-mysql" style={{marginLeft:'0px'}}>  <GrMysql></GrMysql><span className="letras-my">My</span><span className="letras-sql">SQL</span>        </span>
+                                 
+                                
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/TrabalhoFinal_Disciplina_Analise_e_Projeto_de_Sistemas_ADS_II_IFPI")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
 
+            </section>
         
            
 

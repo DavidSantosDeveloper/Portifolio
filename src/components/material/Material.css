@@ -236,6 +236,33 @@ span.card_tech_icon{
     color: rgb(255, 12, 162);
 
 }
+.color-csharp svg{ 
+    font-weight: bold;
+   color: black;
+}
+.color-dotnet svg{ 
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-inline: 5px;
+}
+.color-mysql svg{ 
+    font-weight: bold;
+    color: black;
+    
+}
+.color-mysql span.letras-my{ 
+ 
+    color: rgb(107, 107, 244);
+    
+}
+.color-mysql span.letras-sql{ 
+
+    color: rgb(182, 121, 7);
+    
+}
+
 
 
 /*  COMPOETE SECAO- Contatos*/
