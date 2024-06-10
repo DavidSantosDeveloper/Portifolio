@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
 import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp } from "react-icons/si";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma } from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import {GrMysql} from "react-icons/gr"
 import { AiOutlineCode } from "react-icons/ai"
@@ -184,6 +184,10 @@ export default function Material() {
                         <span >TypeScript</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <SiFigma></SiFigma>
+                        <span >Figma</span>
+                    </Paper>
+                    <Paper elevation={5}>
                         <FaReact></FaReact>
                         <span >React JS</span>
                     </Paper>
@@ -219,6 +223,7 @@ export default function Material() {
                         <SiRedux></SiRedux>
                         <span >Redux</span>
                     </Paper>
+                    
                     <Paper elevation={5}>
                         <AiOutlineCode></AiOutlineCode>
                         <span>Programação Orientada à Objeto</span>
