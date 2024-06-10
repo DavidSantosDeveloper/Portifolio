@@ -614,7 +614,7 @@ export default function Material() {
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-              API AWPAGS
+              API REST AWPAGS
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                     API AWPAGS contendo recursos Cliente e Parcelamento,o projeto utiliza conceitos de DDD,trata excecções,valida dados da api com ben validation e cria validações custominizadas,versionamento de banco de dados com flyway.
