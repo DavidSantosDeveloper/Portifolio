@@ -571,46 +571,49 @@ export default function Material() {
 
             </section>
 
-             <section id="projeto_mvc_dotnet_sistema_vendas" className="container_projeto" >
+            
+
+            <section id="projeto_api_ecommerce_jogos" className="container_projeto">
+  <Card sx={{ maxWidth: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+    <CardMedia
+      sx={{ height: '250px', width: '300px' }}
+      // image={imagem_projeto_ecommerce_jogos}
+      title="projeto api rest ecommerce jogos"
+    />
+    <CardContent>
+      <Typography gutterBottom variant="h5" component="div">
+        API REST e-commerce de jogos
+      </Typography>
+      <Typography variant="body1" color="text.secondary">
+      API REST para gerenciamento de um e-commerce de jogos, desenvolvida com Java, Spring Boot, JPA Repository e PostgreSQL. Segue a arquitetura Domain-Driven Design (DDD), com camadas bem definidas (Domínio, Aplicação, Infraestrutura e Apresentação), promovendo modularidade e fácil manutenção. Utiliza DTOs (Data Transfer Objects) para comunicação entre camadas, tratamento centralizado de exceções e validação de dados, garantindo robustez, segurança e integridade nas operações.
+      </Typography>
+      <Typography variant="body1" color="text.secondary">
+        <p style={{ fontWeight: 'bold' }}>Tecnologias usadas no projeto:</p>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }} className="container_card_tech_icons">
+          <span className="card_tech_icon color-java"><FaJava /> Java</span>
+          <span className="card_tech_icon color-spring"><SiSpring /> Spring</span>
+          <span className="card_tech_icon color-spring"><SiSpring /> Hibernate</span>
+          <span className="card_tech_icon color-postgree"><SiPostgresql /> PostgreSQL</span>
+        </div>
+      </Typography>
+    </CardContent>
+    <CardActions>
+      {/* <Button onClick={() => abrir_link_de_um_projeto("")} size="small" className="butao_card_projeto">Ver Projeto</Button> */}
+      <Button onClick={() => abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/api_rest_java_spring_ecommerce_jogos")} size="small" className="butao_card_projeto">Repositório</Button>
+    </CardActions>
+  </Card>
+            </section>
+
+            <section id="projeto_api_amigo_oculto" className="container_projeto" >
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
                 <CardMedia
                     sx={{ height: '250px' ,width:'300px'}}
                     // image={imagem_projeto_lista_de_presenca}
-                    title="projeto_mvc_dotnet_sistema_vendas"
+                    title="projeto amigo oculto"
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-             Sistema de vendas MVC dotnet
-                </Typography>
-                <Typography variant="body1" color="text.secondary">
-                   Projeto Desenvolvido como trabalho final da disciplina Análise e Projeto de Sistemas pertecente a grade curricular da graduação.O mesmo foi implementado a partir de um diagrama UML(Unified Modeling Language).
-                   O Sistema web MVC foi construido utilizando .NET Framework ,Entity Framework como ORM,MySQL como banco de dados,foi criado as Views(Páginas web) como também os Controllers para atuação como API REST. 
-                </Typography>
-                <Typography variant="body1" color="text.secondary">
-                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
-                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
-                      {/* <img src="../../../public/java-logo.svg"/> */}
-                       
-        
-                                <span className="card_tech_icon color-csharp" style={{marginLeft:'0px'}}>  <SiCsharp></SiCsharp> C#</span>
-                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet> .NET</span>
-                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet>Entity Framework</span>
-                                 <span className="card_tech_icon color-mysql" style={{marginLeft:'0px'}}>  <GrMysql></GrMysql><span className="letras-my">My</span><span className="letras-sql">SQL</span>        </span>
-                                 
-                                
-                      </div>
-                      
-                </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/TrabalhoFinal_Disciplina_Analise_e_Projeto_de_Sistemas_ADS_II_IFPI")}}    size="small" className="butao_card_projeto" >Repositório</Button>
-                </CardActions>
-              </Card>
-
-            </section>
-
-            <section id="projeto_api_hotel" className="container_projeto" >
+                <section id="projeto_api_awpags" className="container_projeto" >
                 <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
                 <CardMedia
                     sx={{ height: '250px' ,width:'300px'}}
@@ -619,19 +622,53 @@ export default function Material() {
                 />
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-              API REST hotel
+              API REST Amigo Oculto
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
-                    API REST HOTEL contendo recursos hospede,funcionario,apto(apartamento ),categoria e hospedagem
+                    API Amigo oculto contendo recursos Eventos,Sorteio e Usuario,o projeto utiliza arquitetura Clean Architecture.Cada rota possui os respectivos métodos http GET,POST,PUT e DELETE. 
                 </Typography>
                 <Typography variant="body1" color="text.secondary">
                       <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
-                      <div style={{display:'flex',justifyContent:'left' ,gap:'20px'}} className="container_card_tech_icons">
-                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
+                      {/* <img src="../../../public/java-logo.svg"/> */}
+                       
+                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}><FaJava></FaJava>Java</span>
         
-                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring WEB</span>
-                                 <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
-                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
+                                 <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                 <div style={{display:"block"}}>
+                                 </div>
+                                
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                    API AWPAGS contendo recursos Cliente e Parcelamento,o projeto utiliza conceitos de DDD,trata excecções,valida dados da api com ben validation e cria validações custominizadas,versionamento de banco de dados com flyway.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
+                      {/* <img src="../../../public/java-logo.svg"/> */}
+                       
+                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}><FaJava></FaJava>     Java</span>
+        
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
+                                 <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                 <div style={{display:"block"}}>
+                                <span className="card_tech_icon color-flyway" style={{marginLeft:'0px',display:"block"}}>  <SiFlyway></SiFlyway> Flyway</span>
+                                 </div>
+                                
                       </div>
                       
                 </Typography>
@@ -683,6 +720,81 @@ export default function Material() {
               </Card>
 
             </section>
+            <section id="projeto_api_hotel" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto lista de presenca"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+              API REST hotel
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                    API REST HOTEL contendo recursos hospede,funcionario,apto(apartamento ),categoria e hospedagem
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'left' ,gap:'20px'}} className="container_card_tech_icons">
+                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+        
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring WEB</span>
+                                 <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Hibernate</span>
+                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
+
+             <section id="projeto_mvc_dotnet_sistema_vendas" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto_mvc_dotnet_sistema_vendas"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+             Sistema de vendas MVC dotnet
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                   Projeto Desenvolvido como trabalho final da disciplina Análise e Projeto de Sistemas pertecente a grade curricular da graduação.O mesmo foi implementado a partir de um diagrama UML(Unified Modeling Language).
+                   O Sistema web MVC foi construido utilizando .NET Framework ,Entity Framework como ORM,MySQL como banco de dados,foi criado as Views(Páginas web) como também os Controllers para atuação como API REST. 
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
+                      {/* <img src="../../../public/java-logo.svg"/> */}
+                       
+        
+                                <span className="card_tech_icon color-csharp" style={{marginLeft:'0px'}}>  <SiCsharp></SiCsharp> C#</span>
+                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet> .NET</span>
+                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet>Entity Framework</span>
+                                 <span className="card_tech_icon color-mysql" style={{marginLeft:'0px'}}>  <GrMysql></GrMysql><span className="letras-my">My</span><span className="letras-sql">SQL</span>        </span>
+                                 
+                                
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/TrabalhoFinal_Disciplina_Analise_e_Projeto_de_Sistemas_ADS_II_IFPI")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
+            
             
          
            
