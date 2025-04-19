@@ -125,7 +125,7 @@ export default function Material() {
                         </p>
                         */
                      }
-                      <p> Sou estudante do 5º período de Análise e Desenvolvimento de Sistemas no IFPI (Instituto Federal do Piauí)  campus Teresina Central e formado como Desenvolvedor Full-Stack com Angular e .NET pelo Senai. Desde cedo, sou apaixonado por tecnologia, e essa paixão se intensificou com minha formação técnica em informática pelo IFPI e acadêmica. </p> <p> Gosto de aprender, inovar e trabalhar em equipe, participando ativamente de todas as etapas do desenvolvimento de software,envolvendo desde concepção ao desenvolvimento e manutenção. Tenho foco em criar soluções com boa experiência de usuário e escalabilidade, unindo conhecimentos em UX/UI Design, algoritmos, estrutura de dados,segurança da informaçaõ e arquitetura de sistemas. </p>
+                      <p> Sou estudante do 5º período de Análise e Desenvolvimento de Sistemas no IFPI (Instituto Federal do Piauí)  campus Teresina Central e formado como Desenvolvedor Full-Stack com Angular e dotnet pelo Senai. Desde cedo, sou apaixonado por tecnologia, e essa paixão se intensificou com minha formação técnica em informática pelo IFPI e acadêmica. </p> <p> Gosto de aprender, inovar e trabalhar em equipe, participando ativamente de todas as etapas do desenvolvimento de software,envolvendo desde concepção ao desenvolvimento e manutenção. Tenho foco em criar soluções com boa experiência de usuário e escalabilidade, unindo conhecimentos em áreas diversas, como em UX/UI Design, algoritmos, estrutura de dados,segurança da informação e arquitetura de sistemas. </p>
                     </Paper>
 
                   </Box>
