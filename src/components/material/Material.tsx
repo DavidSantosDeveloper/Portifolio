@@ -7,12 +7,12 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
-import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs,FaDocker} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma ,SiDocker,SiSwagger} from "react-icons/si";
+import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs} from "react-icons/fa";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma ,SiDocker,SiSwagger} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import {GrMysql} from "react-icons/gr"
 import { AiOutlineCode } from "react-icons/ai"
-import { DiResponsive,DiMsqlServer} from "react-icons/di";
+import { DiResponsive} from "react-icons/di";
 
 //foto de perfil
 import perfil from '../../assets/perfil.jpg'
