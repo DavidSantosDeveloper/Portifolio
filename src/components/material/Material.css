@@ -274,7 +274,8 @@ span.card_tech_icon{
     color: black;
 }
 .color-sql-server svg{
-    /* font-size: 1.4em; */
+    /* font-BAsize: 1.4em; */
+    color: orange;
 }
 
 

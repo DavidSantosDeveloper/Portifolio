@@ -230,16 +230,13 @@ export default function Material() {
                     </Paper>
                     <Paper elevation={5}>
                         <AiOutlineCode></AiOutlineCode>
-                        <span>Princíprios de programação SOLID</span>
+                        <span>SOLID e Clean Code</span>
                     </Paper>
                     <Paper elevation={5}>
                         <AiOutlineCode></AiOutlineCode>
-                        <span>Princíprios de programação CLEAN CODE</span>
+                        <span>Arquitetura de software</span>
                     </Paper>
-                    <Paper elevation={5}>
-                        <FaNode></FaNode>
-                        <span >Node JS</span>
-                    </Paper>
+                   
                     <Paper elevation={5}>
                         <FaJava></FaJava>
                         <span >Java</span>
@@ -248,18 +245,22 @@ export default function Material() {
                         <SiSpring></SiSpring>
                         <span >Spring</span>
                     </Paper>
-                    <Paper elevation={5}>
+                    {/* <Paper elevation={5}>
                         <SiSpringboot></SiSpringboot>
                         <span >Spring Boot</span>
-                    </Paper>
+                    </Paper> */}
                     <Paper elevation={5}>
                         <FaPython></FaPython>
                         <span >Python</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <FaNode></FaNode>
+                        <span >Node JS</span>
+                    </Paper>
+                    {/* <Paper elevation={5}>
                         <FaCuttlefish></FaCuttlefish>
                         <span >C</span>
-                    </Paper>
+                    </Paper> */}
                     <Paper elevation={5}>
                         <TbBrandCpp></TbBrandCpp>
                         <span >C++</span>
@@ -282,7 +283,7 @@ export default function Material() {
                     </Paper>
                     <Paper elevation={5}>
                         <TbSql></TbSql>
-                        <span >SQL</span>
+                        <span >SQL e PL/SQL</span>
                     </Paper>
                     <Paper elevation={5}>
                         <SiPostgresql></SiPostgresql>
@@ -311,6 +312,10 @@ export default function Material() {
                     <Paper elevation={5}>
                         <SiGithub></SiGithub>
                         <span >GitHub</span>
+                    </Paper>
+                    <Paper elevation={5}>
+                        <SiDocker></SiDocker>
+                        <span >Docker</span>
                     </Paper>
 
 
