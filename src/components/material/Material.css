@@ -262,6 +262,20 @@ span.card_tech_icon{
     color: rgb(182, 121, 7);
     
 }
+.color-docker svg{
+    font-size: 1.3em;
+    color: blue;
+}
+.color-api-swagger svg{
+
+    background-color: green;
+    border: 0px solid transparent;
+    border-radius: 50%;
+    color: black;
+}
+.color-sql-server svg{
+    /* font-size: 1.4em; */
+}
 
 
 

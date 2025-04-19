@@ -7,12 +7,12 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
-import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma } from "react-icons/si";
+import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaCuttlefish,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs,FaDocker} from "react-icons/fa";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiSpringboot,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma ,SiDocker,SiSwagger} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import {GrMysql} from "react-icons/gr"
 import { AiOutlineCode } from "react-icons/ai"
-import { DiResponsive } from "react-icons/di";
+import { DiResponsive,DiMsqlServer} from "react-icons/di";
 
 //foto de perfil
 import perfil from '../../assets/perfil.jpg'
@@ -573,6 +573,47 @@ export default function Material() {
 
             
 
+
+
+
+
+            <section id="projeto_api_backend_app_maps_acessiblidade" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto lista de presenca"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+              API REST Mapa de locais com acessibilidade
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                A API REST Mapa de Locais com Acessibilidade faz parte de uma iniciativa que visa oferecer uma plataforma mobile dedicada a fornecer informações sobre locais acessíveis na cidade para pessoas com deficiência. O aplicativo móvel exibe um mapa dinâmico da cidade, ou de qualquer localidade do mundo, no qual os usuários podem adicionar locais acessíveis e visualizar informações e avaliações sobre eles.
+
+                A API gerencia os dados do mapa, permitindo autenticação de usuários, cadastro e avaliação de locais acessíveis, além da consulta de informações. Sua arquitetura segue o Domain-Driven Design (DDD), com camadas bem definidas que garantem modularidade e manutenção facilitada. Utiliza DTOs para comunicação entre camadas, tratamento centralizado (e personalizado) de exceções e validação de dados.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'left' ,gap:'20px'}} className="container_card_tech_icons">
+                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}>  <FaJava></FaJava> Java</span>
+        
+                                <span className="card_tech_icon color-spring" style={{marginLeft:'5px'}}>  <SiSpring></SiSpring> Spring</span>
+                                <span className="card_tech_icon color-postgree" style={{marginLeft:'5px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
+                                <span className="card_tech_icon color-docker" style={{marginLeft:'5px'}}>  <SiDocker></SiDocker> Docker</span>
+                                <span className="card_tech_icon color-api-swagger" style={{marginLeft:'5px'}}>   <SiSwagger></SiSwagger>Swagger</span>
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://backendappmapsacessibilidade-production-783d.up.railway.app/swagger-ui/index.html#/")}}   size="small" className="butao_card_projeto" >Ver Documentação</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/back_end_app_maps_acessibilidade")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                </CardActions>
+              </Card>
+
+            </section>
+
             <section id="projeto_api_ecommerce_jogos" className="container_projeto">
   <Card sx={{ maxWidth: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
     <CardMedia
@@ -599,86 +640,41 @@ export default function Material() {
     </CardContent>
     <CardActions>
       {/* <Button onClick={() => abrir_link_de_um_projeto("")} size="small" className="butao_card_projeto">Ver Projeto</Button> */}
-      <Button onClick={() => abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/api_rest_java_spring_ecommerce_jogos")} size="small" className="butao_card_projeto">Repositório</Button>
+      <Button onClick={() => abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/api_rest_java_spring_ecommerce_jogos")} size="small" className="butao_card_projeto">Ver Repositório</Button>
     </CardActions>
   </Card>
             </section>
 
-            <section id="projeto_api_amigo_oculto" className="container_projeto" >
-                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
-                <CardMedia
-                    sx={{ height: '250px' ,width:'300px'}}
-                    // image={imagem_projeto_lista_de_presenca}
-                    title="projeto amigo oculto"
-                />
-                <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                <section id="projeto_api_awpags" className="container_projeto" >
-                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
-                <CardMedia
-                    sx={{ height: '250px' ,width:'300px'}}
-                    // image={imagem_projeto_lista_de_presenca}
-                    title="projeto lista de presenca"
-                />
-                <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-              API REST Amigo Oculto
-                </Typography>
-                <Typography variant="body1" color="text.secondary">
-                    API Amigo oculto contendo recursos Eventos,Sorteio e Usuario,o projeto utiliza arquitetura Clean Architecture.Cada rota possui os respectivos métodos http GET,POST,PUT e DELETE. 
-                </Typography>
-                <Typography variant="body1" color="text.secondary">
-                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
-                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
-                      {/* <img src="../../../public/java-logo.svg"/> */}
-                       
-                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}><FaJava></FaJava>Java</span>
-        
-                                <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
-                                 <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
-                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
-                                 <div style={{display:"block"}}>
-                                 </div>
-                                
-                      </div>
-                      
-                </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
-                </CardActions>
-              </Card>
-
-            </section>
-                </Typography>
-                <Typography variant="body1" color="text.secondary">
-                    API AWPAGS contendo recursos Cliente e Parcelamento,o projeto utiliza conceitos de DDD,trata excecções,valida dados da api com ben validation e cria validações custominizadas,versionamento de banco de dados com flyway.
-                </Typography>
-                <Typography variant="body1" color="text.secondary">
-                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
-                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
-                      {/* <img src="../../../public/java-logo.svg"/> */}
-                       
-                                <span className="card_tech_icon color-java" style={{marginLeft:'5px'}}><FaJava></FaJava>     Java</span>
-        
-                                <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Spring</span>
-                                 <span className="card_tech_icon color-spring" style={{marginLeft:'0px'}}>  <SiSpring></SiSpring> Hibernate</span>
-                                 <span className="card_tech_icon color-postgree" style={{marginLeft:'0px'}}>  <SiPostgresql></SiPostgresql> PostgreeSQL</span>
-                                 <div style={{display:"block"}}>
-                                <span className="card_tech_icon color-flyway" style={{marginLeft:'0px',display:"block"}}>  <SiFlyway></SiFlyway> Flyway</span>
-                                 </div>
-                                
-                      </div>
-                      
-                </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
-                </CardActions>
-              </Card>
-
+            <section id="projeto_api_amigo_oculto" className="container_projeto">
+                  <Card sx={{ maxWidth: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                    <CardMedia
+                      sx={{ height: '250px', width: '300px' }}
+                      // image={imagem_projeto_amigo_oculto}
+                      title="projeto amigo oculto"
+                    />
+                    <CardContent>
+                      <Typography gutterBottom variant="h5" component="div">
+                        API REST Amigo Oculto
+                      </Typography>
+                      <Typography variant="body1" color="text.secondary">
+                        API Amigo Oculto para realização de sorteio de amigo secreto, contendo recursos como Eventos, Sorteio e Usuário. Projeto segue arquitetura Clean Architecture com métodos HTTP para GET, POST, PUT e DELETE.
+                      </Typography>
+                      <Typography variant="body1" color="text.secondary">
+                        <p style={{ fontWeight: 'bold' }}>Tecnologias usadas no projeto:</p>
+                        <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }} className="container_card_tech_icons">
+                          <span className="card_tech_icon color-java"><FaJava /> Java</span>
+                          <span className="card_tech_icon color-spring"><SiSpring /> Spring</span>
+                          <span className="card_tech_icon color-spring"><SiSpring /> Hibernate</span>
+                          <span className="card_tech_icon color-postgree"><SiPostgresql /> PostgreSQL</span>
+                        </div>
+                      </Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Button onClick={() => abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/api_amigo_oculto")} size="small" className="butao_card_projeto">
+                      Ver Repositório
+                      </Button>
+                    </CardActions>
+                  </Card>
             </section>
 
             <section id="projeto_api_awpags" className="container_projeto" >
@@ -714,8 +710,8 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                  {/* <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button> */}
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_AWPAGS")}}    size="small" className="butao_card_projeto" >Ver Repositório</Button>
                 </CardActions>
               </Card>
 
@@ -747,8 +743,8 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                  {/* <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button> */}
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/API_REST_JAVA_POSTGREE_HOTEL")}}    size="small" className="butao_card_projeto" >Ver Repositório</Button>
                 </CardActions>
               </Card>
 
@@ -787,20 +783,50 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/TrabalhoFinal_Disciplina_Analise_e_Projeto_de_Sistemas_ADS_II_IFPI")}}    size="small" className="butao_card_projeto" >Repositório</Button>
+                  {/* <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button> */}
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/TrabalhoFinal_Disciplina_Analise_e_Projeto_de_Sistemas_ADS_II_IFPI")}}    size="small" className="butao_card_projeto" >Ver Repositório</Button>
                 </CardActions>
               </Card>
 
             </section>
+            <section id="projeto_mvc_dotnet_exoapi_gestao_de_projetos" className="container_projeto" >
+                <Card sx={{ maxWidth: 'auto',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center' }}>
+                <CardMedia
+                    sx={{ height: '250px' ,width:'300px'}}
+                    // image={imagem_projeto_lista_de_presenca}
+                    title="projeto_mvc_dotnet_sistema_vendas"
+                />
+                <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+             Api de gestão de projetos 
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                   Projeto Desenvolvido como trabalho final do módulo de aplicação back-end referente  a formação full-stack do Senai.O projeto consiste no desenvolvimento de uma API REST para gestão de projetos, com funcionalidades como cadastro, edição e exclusão de projetos de uma empresa.Foi implementado também a autentificação e autorização para o acesso a API. 
+                   O Sistema  foi construido utilizando .NET Framework ,Entity Framework como ORM  e SQL server como banco de dados.
+                </Typography>
+                <Typography variant="body1" color="text.secondary">
+                      <p style={{fontWeight:'bold'}} >Tecnologias usadas no projeto:</p>
+                      <div style={{display:'flex',justifyContent:'center' ,gap:'10px'}} className="container_card_tech_icons">
+                      {/* <img src="../../../public/java-logo.svg"/> */}
+                       
+        
+                                <span className="card_tech_icon color-csharp" style={{marginLeft:'0px'}}>  <SiCsharp></SiCsharp> C#</span>
+                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet> .NET</span>
+                                 <span className="card_tech_icon color-dotnet" style={{marginLeft:'0px'}}>  <SiDotnet></SiDotnet>Entity Framework</span>
+                                 <span className="card_tech_icon color-sql-server" style={{marginLeft:'0px'}}>  <FaDatabase></FaDatabase> SQL Server</span>
+                                 
+                                
+                      </div>
+                      
+                </Typography>
+                </CardContent>
+                <CardActions>
+                  {/* <Button onClick={()=>{abrir_link_de_um_projeto("")}}   size="small" className="butao_card_projeto" >Ver Projeto</Button> */}
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/modulo_api_rest_senai_parte_4_atividade_exoapi")}}    size="small" className="butao_card_projeto" >Ver Repositório</Button>
+                </CardActions>
+              </Card>
 
-            
-            
-         
-           
-
-          
-
+            </section>
         
 
       </section>
