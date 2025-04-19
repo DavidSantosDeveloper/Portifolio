@@ -125,12 +125,7 @@ export default function Material() {
                         </p>
                         */
                      }
-                        <p>
-                            Sou estudante do 5º período de Análise e Desenvolvimento de Sistemas no Instituto Federal do Piauí (IFPI), tenho formação no curso desenvolvedor Full-Stack Angular e Dotnet do Senai. Desde a infância, nutro uma paixão pela tecnologia e pelo desenvolvimento de software. Essa afinidade se acentuou durante o curso técnico integrado ao ensino médio em Informática no IFPI e ganhou novas dimensões com a minha atual jornada na graduação.
-                        </p>
-                        <p>
-                        Meu foco principal está em desenvolver tanto a interface como a lógica da aplicação com foco na experiência do usuário e na escalabilidade do sistema. A aplicação dos conceitos da área de UX/UI Design é uma parte crucial do meu aprendizado, visto que me permite aprimorar a interseção entre a tecnologia e a experiência humana. Além disso, busco continuamente aprimorar-me em temas como o pensamento computacional, algoritmos, estrutura de dados e arquitetura de sistemas, pois são essenciais para o desenvolvimento de soluções backend eficientes, escaláveis e seguras.
-                        </p>
+                      <p> Sou estudante do 5º período de Análise e Desenvolvimento de Sistemas no IFPI (Instituto Federal do Piauí)  campus Teresina Central e formado como Desenvolvedor Full-Stack com Angular e .NET pelo Senai. Desde cedo, sou apaixonado por tecnologia, e essa paixão se intensificou com minha formação técnica em informática pelo IFPI e acadêmica. </p> <p> Gosto de aprender, inovar e trabalhar em equipe, participando ativamente de todas as etapas do desenvolvimento de software,envolvendo desde concepção ao desenvolvimento e manutenção. Tenho foco em criar soluções com boa experiência de usuário e escalabilidade, unindo conhecimentos em UX/UI Design, algoritmos, estrutura de dados,segurança da informaçaõ e arquitetura de sistemas. </p>
                     </Paper>
 
                   </Box>
