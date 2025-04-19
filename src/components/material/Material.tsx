@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper';
 
 //icones da parte de habilidades
 import { FaHtml5,FaCss3,FaJsSquare,FaSass,FaReact,FaNode,FaGitAlt,FaJava,FaPython,FaPhp,FaDatabase, FaJs,FaAngular,FaVuejs} from "react-icons/fa";
-import {SiTypescript,SiStyledcomponents,SiCssmodules,SiRedux,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma ,SiDocker,SiSwagger} from "react-icons/si";
+import {SiTypescript,SiStyledcomponents,SiCssmodules,SiPostgresql,SiGithub,SiNextdotjs,SiDotnet,SiSpring,SiMysql,SiMongodb,SiMaterialdesign,SiFlyway,SiCsharp, SiFigma ,SiDocker,SiSwagger, SiFlutter} from "react-icons/si";
 import { TbApi,TbBrandCpp,TbBrandCSharp,TbSql} from "react-icons/tb";
 import {GrMysql} from "react-icons/gr"
 import { AiOutlineCode } from "react-icons/ai"
@@ -125,7 +125,20 @@ export default function Material() {
                         </p>
                         */
                      }
-                      <p> Sou estudante do 5º período da graduação em  Análise e Desenvolvimento de Sistemas no IFPI (Instituto Federal do Piauí)  campus Teresina Central e formado como Desenvolvedor Full-Stack com Angular e dotnet pelo Senai. Desde cedo, sou apaixonado por tecnologia, e essa paixão se intensificou com minha formação técnica em informática pelo IFPI e acadêmica. </p> <p> Gosto de aprender, inovar e trabalhar em equipe, participando ativamente de todas as etapas do desenvolvimento de software,envolvendo desde concepção ao desenvolvimento e manutenção. Tenho foco em criar soluções com boa experiência de usuário e escalabilidade, unindo conhecimentos em áreas diversas, como em UX/UI Design, algoritmos, estrutura de dados,segurança da informação e arquitetura de sistemas. </p>
+     
+                    <p>
+                    Sou estudante do 5º período da graduação em  Análise e Desenvolvimento de Sistemas no IFPI  campus Teresina Central, e formado como Desenvolvedor Full-Stack com Angular e dotnet pelo Senai. Apaixonado por tecnologia desde cedo, venho consolidando minha trajetória por meio de formações técnicas e acadêmicas.
+
+                    </p>
+
+                    <p>
+                    Ao longo da graduação, tive contato com diversas linguagens de programação e frameworks voltados ao desenvolvimento web e mobile. Atualmente, meu foco está no desenvolvimento full-stack e mobile, com ênfase no front-end com Angular ou React, back-end com Java e Spring Framework, e aplicativos móveis utilizando Flutter. Busco criar soluções escaláveis, seguras e com excelente experiência do usuário, unindo prática e conhecimento em áreas como UX/UI Design, algoritmos, estrutura de dados, segurança da informação e arquitetura de sistemas.
+                    </p>
+
+                    <p>
+                      Atualmente, atuo como estagiário de TI no Tribunal Regional do Trabalho da 22ª Região (TRT-PI), onde colaboro no desenvolvimento de sistemas web com Java e Spring, administração de redes com Active Directory, criação de scripts (PowerShell e Python) e suporte técnico a usuários.Essa experiência tem reforçado minhas habilidades em trabalho em equipe, comunicação,inovação, resolução de problemas, e uso de metodologias ágeis como Scrum.
+                    </p>
+                      
                     </Paper>
 
                   </Box>
@@ -199,6 +212,10 @@ export default function Material() {
                         <span >Vue JS</span>
                     </Paper>
                     <Paper elevation={5}>
+                        <SiFlutter></SiFlutter>
+                        <span >Flutter</span>
+                    </Paper>
+                    <Paper elevation={5}>
                         <FaSass></FaSass>
                         <span >SAAS</span>
                     </Paper>
@@ -214,10 +231,7 @@ export default function Material() {
                         <SiMaterialdesign></SiMaterialdesign>
                         <span >Material Design</span>
                     </Paper>
-                    <Paper elevation={5}>
-                        <SiRedux></SiRedux>
-                        <span >Redux</span>
-                    </Paper>
+                    
                     
                     <Paper elevation={5}>
                         <AiOutlineCode></AiOutlineCode>
@@ -607,7 +621,7 @@ export default function Material() {
                 </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button onClick={()=>{abrir_link_de_um_projeto("https://backendappmapsacessibilidade-production-783d.up.railway.app/swagger-ui/index.html#/")}}   size="small" className="butao_card_projeto" >Ver Documentação</Button>
+                  <Button onClick={()=>{abrir_link_de_um_projeto("https://backendappmapsacessibilidade-production-783d.up.railway.app/swagger-ui/index.html")}}   size="small" className="butao_card_projeto" >Ver Documentação</Button>
                   <Button onClick={()=>{abrir_link_de_um_projeto("https://github.com/DavidSantosDeveloper/back_end_app_maps_acessibilidade")}}    size="small" className="butao_card_projeto" >Repositório</Button>
                 </CardActions>
               </Card>
